@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "pseudo": "Tom",
+        "password": "123456",
+        "authorization" : "referent"
+    },
+    {
+        "id": 2,
+        "pseudo": "Bixente",
+        "password": "123456",
+        "authorization" : "referent"
+    },
+    {
+        "id": 3,
+        "pseudo": "Maveur",
+        "password": "123456",
+        "authorization" : "referent"
+    },
+    {
+        "id": 4,
+        "pseudo": "sMOUMy",
+        "password": "123456",
+        "authorization" : "referent"
+    },
+    {
+        "id": 5,
+        "pseudo": "Prune",
+        "password": "123456",
+        "authorization" : "referent"
+    },
+    {
+        "id": 6,
+        "pseudo": "Jod",
+        "password": "123456",
+        "authorization" : "referent"
+    },
+    {
+        "id": 7,
+        "pseudo": "Emma",
+        "password": "123456",
+        "authorization" : ""
+    }
+      
+  ]
+  

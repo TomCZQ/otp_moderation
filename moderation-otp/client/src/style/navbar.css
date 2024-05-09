@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 10px;
+}
+.navbar a {
+  height: 20px;
+}
+.navbar a:hover {
+  color: #ff3f09;
+}/*# sourceMappingURL=navbar.css.map */

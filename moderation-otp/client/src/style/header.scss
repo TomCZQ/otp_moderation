@@ -1,0 +1,52 @@
+header{
+    background-color: #1b1b1b;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px;
+    height: 100px;
+    
+    h1{
+        
+        color: #ff3f09;
+        font-family: "Montserrat";
+        font-size: 56px;
+        
+        position: absolute;
+        left: 50%;
+        top: 24px;
+        transform: translate(-50%, -50%); 
+        text-shadow:
+            -1px -1px 0 black,
+            1px -1px 0 black,
+            -1px 1px 0 black,
+            1px 1px 0 black;
+          text-align: center;
+          
+    }
+    
+    .dropdown{
+        top: 20px;
+        right: 20px;
+    }
+
+    .logo-mode-otp{
+        width: 70px;
+    }
+
+    .navbar{
+        display: flex;
+        gap: 20px;
+        
+        
+        a{  
+            text-decoration: none;
+            color: white;
+            text-align: center;
+        }
+    }
+
+    .active-link-header{
+        color: #ff3f09; 
+    }
+}

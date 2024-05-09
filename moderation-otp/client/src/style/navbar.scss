@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 10px;
+
+    a{
+        height: 20px;
+        
+        &:hover{
+            color: #ff3f09;
+        }
+    }
+}
