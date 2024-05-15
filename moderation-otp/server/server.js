@@ -1,24 +1,12 @@
-const express = require('express');
-const axios = require('axios');
-const fs = require('fs');
-const path = require('path');
-const cors = require('cors');
-const app = express();
-
-app.use(cors({
-    origin: 'http://localhost:3000', 
-    methods: ['GET'], 
-    allowedHeaders: '*',  // Autorise tous les headers
-    credentials: true, 
-}));
-
-
-app.use(express.json());
-
-const PORT = process.env.PORT || 3001;
+const http = require("http");
+const app = require("./app");
+require("dotenv").config();
+const PORT = process.env.PORT;
+const server = http.createServer(app);
+server.listen(PORT, () => console.log(`The server has started on port ${PORT}.`));
 
 app.get('/members', async (req, res) => {
-    const token = 'MTIzNzc2ODk1MDgxMzgxODkyMA.GKaGbT.eljECslObsqSSzL7JVnqkj1aYqlGz7D4o2_qCk'; // Assurez-vous de remplacer cela par un token valide
+    const token = process.env.ClientToken;
     const limit = req.query.limit || 1000;
 
     try {
@@ -45,8 +33,4 @@ app.get('/members', async (req, res) => {
         console.error('Failed to fetch members:', error);
         res.status(500).send('Failed to fetch members');
     }
-});
-
-app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
 });
