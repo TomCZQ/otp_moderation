@@ -1,27 +1,28 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Register from './components/Register';
-//import Login from './components/Login';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import Login from './components/Login';
 import Protected from './components/Protected';
 
-const Login = () => {
+const App = () => {
   return (
-    
-
-        <div>
+    <Router>
+      <div>
+        <nav>
           <ul>
             <li>
-              <a href="/register">Register</a>
+              <Link to="/login">Login</Link>
             </li>
             <li>
-              <a href="/login">Login</a>
-            </li>
-            <li>
-              <a href="/protected">Protected</a>
+              <Link to="/protected">Protected</Link>
             </li>
           </ul>
-        </div>
-    
+        </nav>
+        <Switch>
+          <Route path="/login" component={Login} />
+          <Route path="/protected" component={Protected} />
+        </Switch>
+      </div>
+    </Router>
   );
 };
 
