@@ -1,14 +1,15 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-const userController = require('../controllers/userController');
-const { authenticateToken, authenticateAdmin } = require('../middleware/auth');
+const userController = require("../controllers/userController");
+const discordController = require("../controllers/discordController");
+const { authenticateToken } = require("../middleware/auth");
 
-// Route pour la connexion des utilisateurs
-router.post('/login', userController.loginUser);
+router.get("/members", discordController.getMembers);
 
-// Route protégée pour les utilisateurs authentifiés
-router.get('/protected', authenticateToken, (req, res) => {
-  res.send('This is a protected route');
-});
+//router.get("/matches", matchesController.getMatches);
+
+router.post("/login", userController.loginUser);
+
+router.get("/me", authenticateToken, userController.getUserDetails);
 
 module.exports = router;

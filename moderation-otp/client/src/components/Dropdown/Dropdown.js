@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import logo from "../../assets/logo_mode_otp.png";
 import "./Style/dropdown.css";
 
 function Dropdown(props) {
-
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -14,6 +14,7 @@ function Dropdown(props) {
   return (
     <div className={`dropdown ${isOpen ? "open" : ""}`}>
       <button className="dropdown-button" onClick={toggleDropdown}>
+        <img className="logo-menu" src={props.src} alt=""></img>
         {props.dropdownName}
         <FontAwesomeIcon
           icon={faChevronDown}

@@ -3,35 +3,48 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
+  Navigate,
 } from "react-router-dom";
-import Header from "./components/Header/Header.js"
-import Footer from "./components/Footer/Footer.js"
-import Home from "./pages/Home.js";
-import Moderateurs from "./pages/Moderateurs.js";
-import Schedule from "./pages/Schedule.js"
-import LoginButton from './components/Loginbutton/Loginbutton.js';
-import Planning from "./pages/Planning.js"
+import Home from "./pages/Home/Home";
+import Moderateurs from "./pages/Moderateurs";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Login from "./pages/Login/Login";
+import IndexLeagues from "./pages/IndexLeagues/IndexLeagues";
+import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
+import PublicRoute from "./components/PublicRoute/PublicRoute";
+import { AuthProvider } from "./components/AuthContext/AuthContext";
+import Planning from "./pages/Planning";
 
-import Login from "./"
-
-function App() {
+const App = () => {
   return (
-    <Router>
-      <Header />
-      <LoginButton />
-      <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/moderateurs" element={<Moderateurs />} />
-          <Route path="/plannings" element={<Planning/>}/>         
-                        
-        </Routes>
-      </main>
-      <Footer />
-    </Router>
+    <AuthProvider>
+      <Router>
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/login" element={<PublicRoute element={Login} />} />
+            <Route path="/accueil" element={<PrivateRoute element={Home} />} />
+            <Route
+              path="/modos"
+              element={<PrivateRoute element={Moderateurs} />}
+            />
+            <Route
+              path="/planning/:league"
+              element={<PrivateRoute element={Planning} />}
+            />
+            <Route
+              exact
+              path="/planning"
+              element={<PrivateRoute element={IndexLeagues} />}
+            />
+            <Route path="*" element={<Navigate to="/accueil" replace />} />
+          </Routes>
+        </main>
+        <Footer />
+      </Router>
+    </AuthProvider>
   );
-}
+};
 
 export default App;
-
-// 

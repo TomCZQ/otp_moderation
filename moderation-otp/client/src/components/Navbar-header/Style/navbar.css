@@ -1,12 +1,13 @@
 .navbar {
   display: flex;
   flex-direction: column;
-  color: white;
   gap: 10px;
 }
 .navbar a {
   height: 20px;
+  color: #1b1b1b;
 }
 .navbar a:hover {
   color: #ff3f09;
+  text-decoration: underline;
 }/*# sourceMappingURL=navbar.css.map */

@@ -1,60 +1,53 @@
-import React, { useState } from 'react';
-import FullCalendar from '@fullcalendar/react';
-import resourceTimelinePlugin from '@fullcalendar/resource-timeline';
-import interactionPlugin from '@fullcalendar/interaction';
-import frLocale from '@fullcalendar/core/locales/fr';
-import dayjs from 'dayjs';
-import "./Style/timetable.css"; // Assurez-vous d'avoir ce fichier CSS pour les styles personnalisés
+import React from "react";
+import FullCalendar from "@fullcalendar/react";
+import resourceTimelinePlugin from "@fullcalendar/resource-timeline";
+import interactionPlugin from "@fullcalendar/interaction";
+import frLocale from "@fullcalendar/core/locales/fr";
+import dayjs from "dayjs";
+import "./Style/timetable.css";
 
-export default function MyCalendar(props) {
-  const ligue = "LEC";
-  const [events, setEvents] = useState([]);
+const Timetable = ({ day, matches, ligue }) => {
+  if (!matches || matches.length === 0) {
+    return <p>No matches scheduled for this day.</p>;
+  }
 
-  const handleDateSelect = (selectInfo) => {
-    console.log("Sélection:", selectInfo); // Voir les détails de la sélection
-    let title = prompt("Entre ton pseudo :"); // Demande du nom de l'événement
-    let calendarApi = selectInfo.view.calendar;
-  
-    calendarApi.unselect(); // Nettoie la sélection visuelle
-  
-    if (title) {
-      let startTime = dayjs(selectInfo.startStr);
-      let endTime = dayjs(selectInfo.endStr);
-      let hourEvents = [];
+  const firstMatchTime = dayjs(matches[0].date);
+  const slotMinTime = firstMatchTime.subtract(30, "minute").format("HH:mm:ss");
+  const slotMaxTime = firstMatchTime
+    .add(matches.length, "hour")
+    .format("HH:mm:ss");
 
-      while(startTime < endTime) {
-        hourEvents.push({
-          title,
-          start: startTime.toISOString(),
-          end: startTime.add(1, 'hour').toISOString(),
-          allDay: selectInfo.allDay
-        });
-        startTime = startTime.add(1, 'hour');
-      }
-
-      console.log("Events to add:", hourEvents); // Log des événements pour vérifier
-      setEvents(currentEvents => [...currentEvents, ...hourEvents]);
-    }
-  };
+  const events = [];
+  const matchesOfTheDay = matches.map((match) => ({
+    title: match.title || `${match.accronyms[0]} vs ${match.accronyms[1]}`,
+  }));
 
   return (
-    <FullCalendar
-      plugins={[resourceTimelinePlugin, interactionPlugin]}
-      locales={[frLocale]}
-      locale='fr'
-      initialView="resourceTimelineDay"
-      slotMinTime="11:00:00"
-      slotMaxTime="17:00:00"
-      resourceAreaHeaderContent={ligue}
-      resources={[
-        { id: 'a', title: 'Vendredi' },
-      ]}
-      events={props.events} // Utiliser l'état des événements
-      selectable={true}
-      selectMirror={true}
-      select={handleDateSelect}
-      editable={true} // Ajout pour rendre les événements éditables (si nécessaire)
-      eventOverlap={false} // Pour empêcher le chevauchement des événements (optionnel)
-    />
+    <div className="programme-container">
+      <div className="programme">
+        {matchesOfTheDay.map((match, index) => (
+          <div key={index} className="match">
+            {match.title}
+          </div>
+        ))}
+      </div>
+      <FullCalendar
+        plugins={[resourceTimelinePlugin, interactionPlugin]}
+        locales={[frLocale]}
+        locale="fr"
+        initialView="resourceTimelineDay"
+        slotMinTime={slotMinTime}
+        slotMaxTime={slotMaxTime}
+        resourceAreaHeaderContent={day}
+        resources={events.title}
+        events={""}
+        selectable={false}
+        selectMirror={true}
+        editable={false}
+        eventOverlap={false}
+      />
+    </div>
   );
-}
+};
+
+export default Timetable;

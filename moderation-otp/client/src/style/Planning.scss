@@ -1,0 +1,43 @@
+.main-container-planning {
+    background-color: #1b1b1b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        color: #ff3f09;
+        font-size: 32px;
+
+    }
+
+    .planning-container {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        margin-bottom: 40px;
+        width: 100%;
+        margin-left: 200px;
+        margin-top: 50px;
+        ;
+    }
+
+
+    .programme {
+        position: relative;
+        font-size: 15px;
+        top: 48px;
+        left: 285px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        .match {
+            width: 110px;
+        }
+    }
+
+
+
+}

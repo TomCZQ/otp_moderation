@@ -1,26 +1,28 @@
 header {
+  z-index: 2;
   background-color: #1b1b1b;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px;
   height: 100px;
-  border-bottom: 3px solid #ff3f09;
+  border-bottom: 5px solid #ff3f09;
+  box-shadow: 12px 12px 2px 1px rgba(255, 255, 255, 0.5);
 }
 header h1 {
-  color: #ff3f09;
+  color: white;
   font-family: "Montserrat";
   font-size: 56px;
   position: absolute;
   left: 50%;
   top: 24px;
   transform: translate(-50%, -50%);
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  text-shadow: -2px 2px 0 black;
   text-align: center;
 }
 header .dropdown {
-  top: 34px;
-  right: 40px;
+  top: 35px;
+  left: 30px;
 }
 header .logo-mode-otp {
   width: 100px;
@@ -31,7 +33,7 @@ header .navbar {
 }
 header .navbar a {
   text-decoration: none;
-  color: white;
+  font-weight: 500;
   text-align: center;
 }
 header .active-link-header {

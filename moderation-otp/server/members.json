@@ -73,7 +73,6 @@
       "1043572037479829575",
       "1048628895160746095",
       "1048625021851009074",
-      "1048629451849736275",
       "1048628682434039838",
       "1048629096659300415"
     ],
@@ -320,7 +319,6 @@
       "1048629157183115334",
       "1043572037479829575",
       "1048628895160746095",
-      "1048629451849736275",
       "1053006847809966142",
       "1048629096659300415"
     ],
@@ -388,7 +386,7 @@
     "user": {
       "id": "218101438977409025",
       "username": "zerotick",
-      "avatar": "454ac5d5566ca74ff97db6d31be7e6fc",
+      "avatar": "83432f22875456d03c3186667d9a47e5",
       "discriminator": "0",
       "public_flags": 0,
       "flags": 0,
@@ -420,7 +418,6 @@
       "1043572037479829575",
       "1048625021851009074",
       "1048629004711776306",
-      "1048629451849736275",
       "1048629096659300415"
     ],
     "unusual_dm_activity_until": null,
@@ -456,7 +453,7 @@
     "user": {
       "id": "224559533303922688",
       "username": "fourb0",
-      "avatar": "6570299cfb4f17578a89d8611df8013a",
+      "avatar": "dc0bd6eca51966666853e83d5eecac14",
       "discriminator": "0",
       "public_flags": 0,
       "flags": 0,
@@ -575,8 +572,7 @@
       "1043572037479829575",
       "1048628895160746095",
       "1048625021851009074",
-      "1048629004711776306",
-      "1048629451849736275"
+      "1048629004711776306"
     ],
     "unusual_dm_activity_until": null,
     "user": {
@@ -1365,7 +1361,7 @@
     "user": {
       "id": "399171878217973760",
       "username": "simplyblakie",
-      "avatar": "8ed0b52fb743086c914b070019c1fc9c",
+      "avatar": "33288c3481edd8bda63846fff5073f10",
       "discriminator": "0",
       "public_flags": 64,
       "flags": 64,
@@ -1384,10 +1380,10 @@
   },
   {
     "avatar": null,
-    "communication_disabled_until": "2023-07-24T19:28:58.575000+00:00",
+    "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-01-18T11:18:33.429000+00:00",
-    "nick": "[GWIIN]  Romane",
+    "nick": "[GPerdu]  Romane",
     "pending": false,
     "premium_since": null,
     "roles": [
@@ -1708,7 +1704,6 @@
       "1043572037479829575",
       "1048628895160746095",
       "1048625021851009074",
-      "1048629451849736275",
       "1048628682434039838"
     ],
     "unusual_dm_activity_until": null,
@@ -1786,7 +1781,7 @@
       "flags": 256,
       "banner": null,
       "accent_color": null,
-      "global_name": "kuromiaou",
+      "global_name": "kuromiaouu",
       "avatar_decoration_data": null,
       "banner_color": null,
       "clan": null
@@ -1864,10 +1859,9 @@
     "pending": false,
     "premium_since": null,
     "roles": [
-      "1048629157183115334",
-      "1043572037479829575",
       "1048629004711776306",
-      "1048629451849736275",
+      "1043572037479829575",
+      "1048629157183115334",
       "1048628682434039838"
     ],
     "unusual_dm_activity_until": null,

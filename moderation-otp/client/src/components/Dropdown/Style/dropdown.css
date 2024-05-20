@@ -5,6 +5,7 @@
   width: 250px;
   height: auto;
   gap: 0px;
+  align-items: center;
 }
 
 .dropdown-button {
@@ -14,23 +15,35 @@
   text-align: left;
   height: 52px;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 25px;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
   z-index: 1;
+  font-weight: 700;
+  color: white;
+  width: 250px;
+  transition: all 0.2s ease-in-out;
+}
+.dropdown-button img {
+  position: relative;
+  right: 20px;
+  width: 52px;
+  transition: transform 0.4s ease-in-out;
+  margin-right: -20px;
+}
+.dropdown-button .dropdown.open .logo-menu {
+  transform: rotate(360deg);
 }
 
 .dropdown:hover .dropdown-button,
 .open.dropdown .dropdown-content {
-  border-bottom: 0px solid #ff3f09;
   box-shadow: -1px -1px 1px #ff3f09, 1px -1px 1px #ff3f09, -1px 1px 1px #ff3f09, 1px 1px 1px #ff3f09;
 }
 
 .open .dropdown-button {
-  border-bottom: 0px solid #ff3f09;
   box-shadow: -1px -1px 1px #ff3f09, 1px -1px 1px #ff3f09, -1px 1px 1px #ff3f09, 1px 1px 1px #ff3f09;
 }
 
@@ -38,8 +51,9 @@
   position: relative;
   z-index: 999;
   margin: 0;
-  background-color: #1b1b1b;
-  width: 246px;
+  margin-top: 1px;
+  background-color: white;
+  max-width: 208px;
   height: auto;
   font-size: 22px;
   font-weight: 400;
@@ -56,6 +70,9 @@
 
 .content {
   margin: 10px;
+}
+.content .navbar {
+  color: #1b1b1b;
 }
 
 .open.dropdown-content {

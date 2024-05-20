@@ -1,0 +1,33 @@
+.main-container-planning {
+  background-color: #1b1b1b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-container-planning h2 {
+  color: #ff3f09;
+  font-size: 32px;
+}
+.main-container-planning .planning-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.main-container-planning .programme {
+  position: relative;
+  font-size: 15px;
+  top: 48px;
+  left: 285px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.main-container-planning .programme .match {
+  width: 110px;
+}/*# sourceMappingURL=Planning.css.map

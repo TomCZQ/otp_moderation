@@ -1,11 +1,13 @@
+.fc-license-message {
+  display: none;
+}
+
 .fc {
   font-family: "Montserrat";
   color: #333;
 }
 .fc .fc-header-toolbar {
-  background-color: #f4f4f4;
-  padding: 10px;
-  border-bottom: 1px solid #ddd;
+  display: none;
 }
 .fc .fc-header-toolbar .fc-button {
   background-color: #fff;
@@ -29,12 +31,11 @@
 }
 .fc .fc-event {
   background-color: grey;
-  border: 1px solid white;
   color: #fff;
   padding: 2px 5px;
-  border-radius: 5px;
+  border-radius: 0px;
   font-size: 24px;
-  margin-top: 3px;
+  margin-top: 5px;
 }
 .fc .fc-event:hover {
   background-color: #ff3f09;
@@ -46,12 +47,29 @@
   background-color: #f9f9f9;
 }
 .fc .fc-timeline .fc-timeline-cell {
+  width: 50px;
   border-right: 1px solid #ddd;
+}
+
+.fc-timeline-slot-frame {
+  width: auto;
+  display: flex;
+  justify-content: baseline;
+  text-align: start;
+}
+
+.fc-timeline-slot-cushion {
+  position: relative;
+  top: -10px;
+}
+
+.fc-datagrid-cell-main {
+  font-size: 25px;
 }
 
 .fc-media-screen {
   color: white;
-  width: 1200px;
+  width: 900px;
   height: auto;
   max-height: 450px;
 }
