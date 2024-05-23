@@ -29,9 +29,7 @@ const Login = () => {
       navigate("/home");
     } catch (err) {
       console.error("Login failed:", err);
-      setError(
-        "Connexion échouée, tu t'es trompé(e) de mot de passe ou de pseudo, c'est low "
-      );
+      setError(err.response.data.message);
     }
   };
 
@@ -45,7 +43,6 @@ const Login = () => {
             type="text"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
-            required
           />
         </div>
         <div className="input-password">
@@ -54,7 +51,6 @@ const Login = () => {
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            required
           />
         </div>
         <button type="submit">Se connecter</button>

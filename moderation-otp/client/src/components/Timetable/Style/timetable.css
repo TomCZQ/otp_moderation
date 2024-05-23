@@ -1,13 +1,7 @@
-.fc-license-message {
-  display: none;
-}
-
+@charset "UTF-8";
 .fc {
   font-family: "Montserrat";
   color: #333;
-}
-.fc .fc-header-toolbar {
-  display: none;
 }
 .fc .fc-header-toolbar .fc-button {
   background-color: #fff;
@@ -22,6 +16,7 @@
 .fc .fc-header-toolbar .fc-button-primary {
   background-color: #ff3f09;
   color: #fff;
+  display: none;
 }
 .fc .fc-header-toolbar .fc-button-primary:hover {
   background-color: #ff3f09;
@@ -29,16 +24,22 @@
 .fc .fc-header-toolbar .fc-button-active {
   background-color: #ff3f09;
 }
+.fc .fc-datagrid-body {
+  border-bottom-style: transparent;
+}
 .fc .fc-event {
   background-color: grey;
   color: #fff;
   padding: 2px 5px;
-  border-radius: 0px;
+  border-radius: 5px;
   font-size: 24px;
+  font-weight: 500;
+  text-shadow: 3px 3px 3px #333;
   margin-top: 5px;
+  transition: all ease-in-out 0.1s;
 }
 .fc .fc-event:hover {
-  background-color: #ff3f09;
+  scale: 1.03;
 }
 .fc .fc-daygrid-day {
   border: 1px solid #ddd;
@@ -55,7 +56,8 @@
   width: auto;
   display: flex;
   justify-content: baseline;
-  text-align: start;
+  text-align: center;
+  justify-content: center;
 }
 
 .fc-timeline-slot-cushion {
@@ -63,15 +65,27 @@
   top: -10px;
 }
 
+.fc-scroller-harness {
+  text-align: start;
+}
+
+.fc-theme-standard td {
+  border: white 1px solid;
+}
+
+td[role=presentation] {
+  max-width: 150px;
+}
+
 .fc-datagrid-cell-main {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .fc-media-screen {
   color: white;
-  width: 900px;
+  width: 1200px;
   height: auto;
-  max-height: 450px;
+  max-height: 600px;
 }
 
 .fc-toolbar-title {
@@ -84,4 +98,21 @@
 }
 .fc-scroller .fc-datagrid-cell-main {
   justify-content: center;
+}
+
+.fc-col-header-cell,
+.fc-resource {
+  width: 50px !important;
+  /* Définissez la largeur souhaitée */
+  min-width: 50px !important;
+  max-width: 50px !important;
+}
+
+/****************************************/
+.fc-license-message {
+  display: none;
+}
+
+.fc .fc-resource-area .fc-col-header-cell {
+  display: none;
 }/*# sourceMappingURL=timetable.css.map */

@@ -1,11 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Timetable from "../components/Timetable/Timetable";
 import axios from "axios";
 import dayjs from "dayjs";
 import "../style/Planning.css";
+import prankex from "../assets/prankex.gif";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
+import { Link, useLocation } from "react-router-dom";
 
-// Fonction utilitaire pour obtenir la semaine de l'année
 function getWeekNumber(date) {
   const firstDayOfYear = dayjs(date).startOf("year");
   const pastDaysOfYear = dayjs(date).diff(firstDayOfYear, "day");
@@ -16,6 +20,11 @@ const Planning = () => {
   const { league } = useParams();
   const [matches, setMatches] = useState([]);
   const [week, setWeek] = useState(getWeekNumber(new Date()));
+  const navigate = useNavigate();
+
+  const returnToPlanning = () => {
+    navigate("/planning");
+  };
 
   useEffect(() => {
     const apiURL = `http://localhost:3001/api/matches`;
@@ -48,10 +57,20 @@ const Planning = () => {
 
   return (
     <div className="main-container-planning">
-      <h2>{`Planning ${league.toUpperCase()}`}</h2>
+      <h2>
+        <FontAwesomeIcon icon={faChevronLeft} onClick={returnToPlanning} />
+        {`Planning ${league.toUpperCase()}`}
+      </h2>
       <div className="planning-container">
         {Object.keys(matchesByDay).length === 0 ? (
-          <p>{`Pas de matchs de ${league} cette semaine.`}</p>
+          <div className="prankex">
+            <p>{`Pas de ${league.toUpperCase()} cette semaine.`}</p>
+
+            <p>
+              {"(ou alors c'est pas encore à jour)"}
+              <img src={prankex}></img>
+            </p>
+          </div>
         ) : (
           Object.keys(matchesByDay).map((day) => (
             <Timetable

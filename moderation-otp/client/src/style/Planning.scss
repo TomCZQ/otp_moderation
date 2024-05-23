@@ -1,43 +1,129 @@
 .main-container-planning {
-    background-color: #1b1b1b;
+    font-family: "Montserrat";
+    background-color: #f3e9e5;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
+    .form {
+        h2 {
+            font-size: 24px;
+        }
+    }
+
     h2 {
-        color: #ff3f09;
+        padding: 50px;
+        color: white;
+        font-weight: 500;
         font-size: 32px;
+        margin-top: 60px;
+        padding: 20px;
+        border: #ff3f09 solid 1px;
+        border-radius: 15px;
+        background-color: #1b1b1b;
+
+        svg {
+            margin-right: 50px;
+            transition: all 0.2s ease-out;
+
+            border-radius: 50%;
+            padding-left: 6px;
+            padding-right: 6px;
+            margin-left: 10px;
+            color: #f3e9e5;
+            box-sizing: border-box;
+
+            &:hover {
+                cursor: pointer;
+                scale: 1.3;
+                background-color: #ff3f09;
+            }
+        }
 
     }
 
     .planning-container {
         display: flex;
-        flex-direction: row;
-        gap: 40px;
-        margin-bottom: 40px;
-        width: 100%;
-        margin-left: 200px;
-        margin-top: 50px;
-        ;
-    }
-
-
-    .programme {
-        position: relative;
-        font-size: 15px;
-        top: 48px;
-        left: 285px;
-        color: white;
-        display: flex;
         flex-direction: column;
-        gap: 5px;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
 
-        .match {
-            width: 110px;
+        button {
+            background-color: #ff3f09;
+            font-family: 'Montserrat';
+
+            &:hover {
+                background-color: #ff3f09;
+            }
+        }
+
+
+
+
+        .prankex {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 550px;
+
+            p {
+                color: black;
+                font-size: 25px;
+                font-weight: 500;
+            }
+        }
+
+        .timetable-container {
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 25px;
+            margin: 40px;
+            padding: 40px;
+            border: #ff3f09 solid 1px;
+            border-radius: 15px;
+            background-color: #1b1b1b;
+            box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.25);
+            transition: all 0.2s ease-in-out;
+            width: 1750px;
+
+
+            &:hover {
+                scale: 1.003;
+                box-shadow: 5px 5px 5px 0px rgba(141, 22, 6, .2);
+            }
+
+            .programme {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                margin-top: 100px;
+                align-items: flex-start;
+                font-weight: 300;
+                width: auto;
+                height: 460px;
+                font-size: 20px;
+                border: #ff3f09 solid 1px;
+                border-radius: 15px;
+                padding: 20px;
+                gap: 10px;
+
+            }
+
+        }
+
+        p {
+            text-align: center;
+            color: white;
+
+
+
+            img {
+                width: 30px;
+            }
         }
     }
-
-
-
 }

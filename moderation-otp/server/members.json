@@ -837,6 +837,7 @@
     "pending": false,
     "premium_since": null,
     "roles": [
+      "1048629004711776306",
       "1048629157183115334",
       "1043572037479829575"
     ],
@@ -1537,7 +1538,7 @@
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2024-02-14T11:25:38.955000+00:00",
-    "nick": "Otniiiii (modo au pseudo rigolo)",
+    "nick": "Otniiiii",
     "pending": false,
     "premium_since": null,
     "roles": [
@@ -1760,7 +1761,7 @@
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2024-02-14T09:48:56.814000+00:00",
-    "nick": null,
+    "nick": "[Oner] kuromiaou",
     "pending": false,
     "premium_since": null,
     "roles": [
@@ -1988,7 +1989,7 @@
     "user": {
       "id": "1237768950813818920",
       "username": "Modération OTP",
-      "avatar": null,
+      "avatar": "9af4c3f811af98e0540e8cf3ff6ce792",
       "discriminator": "1905",
       "public_flags": 0,
       "flags": 0,

@@ -1,0 +1,12 @@
+/* customStyles.css */
+.ant-picker-range {
+  border-color: #ff3f09 !important;
+}
+
+.ant-picker-active-bar {
+  background: #ff3f09 !important;
+}
+
+.form h2 {
+  font-size: 10px;
+}/*# sourceMappingURL=Timepicker.css.map */

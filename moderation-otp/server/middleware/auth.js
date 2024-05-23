@@ -12,3 +12,11 @@ exports.authenticateToken = (req, res, next) => {
     next();
   });
 };
+
+exports.generateToken = (user) => {
+  return jwt.sign(
+    { userId: user._id, username: user.username, isAdmin: user.isAdmin },
+    process.env.JWT_SECRET,
+    { expiresIn: "24h" }
+  );
+};

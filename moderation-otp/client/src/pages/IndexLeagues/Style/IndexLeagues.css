@@ -2,18 +2,40 @@
   font-family: "Montserrat";
 }
 
-.link-container {
-  padding-bottom: 100px;
-  min-height: 80%;
-  background-color: #1b1b1b;
+.container {
+  background-color: #f3e9e5;
+  margin: 0;
+  color: white;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 25px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  height: 780px;
+}
+.container h2 {
+  border: #ff3f09 solid 4px;
+  background-color: #1b1b1b;
+  border-radius: 40px;
+  font-weight: 500;
+  width: 250px;
+  padding: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(141, 22, 6, 0.2);
+}
+
+.link-container {
+  background-color: #f3e9e5;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 50px;
+  padding-top: 100px;
 }
 .link-container .league-container {
   color: #ff3f09;
+  background-color: #1b1b1b;
   font-size: 35px;
   align-items: center;
   justify-content: center;
@@ -25,17 +47,21 @@
   border-radius: 40px;
   width: 150px;
   padding: 10px;
-  box-shadow: 12px 12px 2px 1px rgba(141, 22, 6, 0.2);
+  box-shadow: 10px 10px 5px 0px rgba(141, 22, 6, 0.2);
+  cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
 .link-container .league-container img {
-  width: 50px;
+  max-height: 100px;
   background-color: transparent;
+}
+.link-container .league-container .lck img {
+  width: 60px;
 }
 .link-container .league-container:hover {
   color: #ff3f09;
   text-decoration: underline;
   text-underline-offset: 4px;
-  box-shadow: 8px 8px 2px 1px rgba(141, 22, 6, 0.2);
+  box-shadow: 4px 4px 5px 0px rgba(141, 22, 6, 0.2);
   transform: scale(1.05);
 }/*# sourceMappingURL=IndexLeagues.css.map */
