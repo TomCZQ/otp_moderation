@@ -65,9 +65,11 @@ const Timepicker = ({ ligue, fetchEvents, day }) => {
       .second(0)
       .format("YYYY-MM-DDTHH:mm:ss");
 
-    const id = `${user.username}-${start}-${end}`;
+    const id = `${user.nick || user.username}-${start}-${end}`;
     const resourceId = "a";
     const title = user.nick || user.username;
+
+    console.log("Payload:", { id, resourceId, start, end, title, color: "" });
 
     try {
       await axios.post(
@@ -77,12 +79,13 @@ const Timepicker = ({ ligue, fetchEvents, day }) => {
           resourceId,
           start,
           end,
-          title: [title], // Assurez-vous que le titre est un tableau
+          title,
           color: "", // Vous pouvez définir la couleur ici si nécessaire
         },
         {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,
+            Ligue: ligue,
           },
         }
       );

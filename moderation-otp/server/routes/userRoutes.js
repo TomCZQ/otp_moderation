@@ -5,6 +5,7 @@ const discordController = require("../controllers/discordController");
 const { authenticateToken } = require("../middleware/auth");
 const { loginUserValidator } = require("../validator/user");
 const { runValidation } = require("../validator");
+const { disposValidator } = require("../validator/Dispos");
 
 router.get("/members", discordController.getMembers);
 
@@ -15,6 +16,11 @@ router.post(
   userController.loginUser
 );
 
-router.get("/me", authenticateToken, userController.getUserDetails);
+router.get(
+  "/me",
+  disposValidator,
+  authenticateToken,
+  userController.getUserDetails
+);
 
 module.exports = router;

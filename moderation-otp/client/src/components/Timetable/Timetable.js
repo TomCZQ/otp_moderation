@@ -5,11 +5,13 @@ import interactionPlugin from "@fullcalendar/interaction";
 import frLocale from "@fullcalendar/core/locales/fr";
 import dayjs from "dayjs";
 import Timepicker from "../TimePicker/Timepicker";
-
+import ConfirmationModal from "../ConfirmationModale/ConfirmationModale";
 import "../../components/Timetable/Style/timetable.css";
 
 const Timetable = ({ day, matches, ligue }) => {
-  const [events, setEvents] = useState([]); // Utilisation de l'état pour les événements
+  const [events, setEvents] = useState([]);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [eventToDelete, setEventToDelete] = useState(null);
 
   const fetchEvents = async () => {
     try {
@@ -28,7 +30,7 @@ const Timetable = ({ day, matches, ligue }) => {
 
   useEffect(() => {
     fetchEvents();
-  }, [ligue]); // Le fetch sera ré-exécuté si `ligue` change
+  }, [ligue]);
 
   if (!matches || matches.length === 0) {
     return <p>Il n'y a pas de {ligue} cette semaine.</p>;
@@ -44,13 +46,55 @@ const Timetable = ({ day, matches, ligue }) => {
   }, {});
 
   const handleEventClick = (clickInfo) => {
-    if (
-      window.confirm(`Veux-tu enlever ${clickInfo.event.title} du planning?`)
-    ) {
-      setEvents((prevEvents) =>
-        prevEvents.filter((event) => event.id !== clickInfo.event.id)
-      );
+    setEventToDelete(clickInfo.event);
+    setIsModalOpen(true);
+  };
+
+  const confirmDelete = async () => {
+    const eventId = eventToDelete.id;
+
+    if (!eventId) {
+      console.error("No event ID to delete");
+      return;
     }
+
+    console.log("Deleting event ID:", eventId);
+
+    try {
+      const token = localStorage.getItem("token");
+      const response = await fetch(
+        `http://localhost:3001/api/dispos`, // Change the endpoint as needed
+        {
+          method: "DELETE",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${token}`,
+            Ligue: ligue,
+          },
+          body: JSON.stringify({ id: eventId }), // Send the ID in the body of the request
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      console.log("Event deleted successfully");
+
+      setEvents((prevEvents) =>
+        prevEvents.filter((event) => event.id !== eventId)
+      );
+    } catch (error) {
+      console.error("Erreur lors de la suppression de l'événement :", error);
+    } finally {
+      setIsModalOpen(false);
+      setEventToDelete(null);
+    }
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setEventToDelete(null);
   };
 
   const days = Object.keys(matchesByDay);
@@ -67,15 +111,6 @@ const Timetable = ({ day, matches, ligue }) => {
           .add(dayMatches.length, "hour")
           .add(30, "minute")
           .format("HH:mm:ss");
-
-        const calendarEvents = dayMatches.map((match) => ({
-          id: match._id,
-          title:
-            match.title || `${match.accronyms[0]} vs ${match.accronyms[1]}`,
-          start: match.date,
-          end: dayjs(match.date).add(match.bo, "hour").toISOString(),
-          resourceId: "singleResource",
-        }));
 
         const resources = [
           {
@@ -96,12 +131,13 @@ const Timetable = ({ day, matches, ligue }) => {
               initialDate={day}
               resourceAreaHeaderContent={ligue}
               resources={resources}
-              events={events} // Utilisation de l'état pour les événements
+              events={events}
               selectable={false}
               selectMirror={true}
               editable={true}
               eventOverlap={true}
-              eventClick={handleEventClick} // Ajout de la gestion des clics sur les évènements
+              eventClick={handleEventClick}
+              resourceAreaWidth="0px"
             />
             <div className="programme">
               {dayMatches.map((match, index) => (
@@ -110,11 +146,16 @@ const Timetable = ({ day, matches, ligue }) => {
                 } vs ${match.accronyms[1]}`}</p>
               ))}
             </div>
-            <Timepicker ligue={ligue} fetchEvents={fetchEvents} day={day} />{" "}
-            {/* Ajouter le composant Timepicker avec les props nécessaires */}
+            <Timepicker ligue={ligue} fetchEvents={fetchEvents} day={day} />
           </div>
         );
       })}
+      <ConfirmationModal
+        isOpen={isModalOpen}
+        onRequestClose={closeModal}
+        onConfirm={confirmDelete}
+        eventTitle={eventToDelete?.title}
+      />
     </div>
   );
 };

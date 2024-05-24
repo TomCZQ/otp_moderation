@@ -13,14 +13,19 @@ const DispoSchema = new mongoose.Schema({
   start: {
     type: String,
     required: true,
-    unique: true,
   },
   end: {
     type: String,
     required: true,
   },
-  title: [String],
-  color: { type: String, required: false },
+  title: {
+    type: String,
+    required: true,
+  },
+  color: {
+    type: String,
+    required: false,
+  },
 });
 
-module.exports = mongoose.model("Dispos", DispoSchema); // Utilisation correcte de DispoSchema
+module.exports = mongoose.model("Dispos", DispoSchema);
