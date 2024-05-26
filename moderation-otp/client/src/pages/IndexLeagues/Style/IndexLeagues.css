@@ -3,7 +3,7 @@
 }
 
 .container {
-  background-color: #f3e9e5;
+  background-color: transparent;
   margin: 0;
   color: white;
   padding-top: 100px;
@@ -12,7 +12,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 780px;
 }
 .container h2 {
   border: #ff3f09 solid 4px;
@@ -22,10 +21,11 @@
   width: 250px;
   padding: 10px;
   box-shadow: 10px 10px 5px 0px rgba(141, 22, 6, 0.2);
+  margin-top: -20px;
 }
 
 .link-container {
-  background-color: #f3e9e5;
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -41,11 +41,11 @@
   justify-content: center;
   text-align: center;
   font-size: 25px;
-  text-decoration: none;
   color: white;
   border: #ff3f09 solid 5px;
   border-radius: 40px;
   width: 150px;
+  height: 100px;
   padding: 10px;
   box-shadow: 10px 10px 5px 0px rgba(141, 22, 6, 0.2);
   cursor: pointer;
@@ -55,13 +55,15 @@
   max-height: 100px;
   background-color: transparent;
 }
-.link-container .league-container .lck img {
-  width: 60px;
-}
 .link-container .league-container:hover {
   color: #ff3f09;
   text-decoration: underline;
   text-underline-offset: 4px;
   box-shadow: 4px 4px 5px 0px rgba(141, 22, 6, 0.2);
   transform: scale(1.05);
+}
+
+.les-assets-de-bixente-cest-de-la-merde {
+  margin-top: 15px;
+  width: 100px;
 }/*# sourceMappingURL=IndexLeagues.css.map */

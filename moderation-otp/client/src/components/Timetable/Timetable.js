@@ -104,13 +104,11 @@ const Timetable = ({ day, matches, ligue }) => {
       {days.map((day, index) => {
         const dayMatches = matchesByDay[day];
         const firstMatchTime = dayjs(dayMatches[0].date);
-        const slotMinTime = firstMatchTime
-          .subtract(30, "minute")
-          .format("HH:mm:ss");
+        const slotMinTime = firstMatchTime.subtract(1, "hour").format("HH:mm");
         const slotMaxTime = firstMatchTime
           .add(dayMatches.length, "hour")
           .add(30, "minute")
-          .format("HH:mm:ss");
+          .format("HH:mm");
 
         const resources = [
           {
@@ -138,8 +136,18 @@ const Timetable = ({ day, matches, ligue }) => {
               eventOverlap={true}
               eventClick={handleEventClick}
               resourceAreaWidth="0px"
+              nowIndicator={true}
+              nowIndicatorClassNames={"now"}
             />
             <div className="programme">
+              <p>
+                {" "}
+                {`${firstMatchTime
+                  .subtract(30, "minute")
+                  .format("HH")}h${firstMatchTime
+                  .subtract(30, "minute")
+                  .format("mm")} - Preshow`}
+              </p>
               {dayMatches.map((match, index) => (
                 <p key={index}>{`${dayjs(match.date).format("HH")}h - ${
                   match.accronyms[0]

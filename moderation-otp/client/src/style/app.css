@@ -1,0 +1,9 @@
+.full-height {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.full-height main {
+  flex: 1;
+}/*# sourceMappingURL=app.css.map */

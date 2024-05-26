@@ -727,7 +727,7 @@
     "user": {
       "id": "265924507489927168",
       "username": "chreak",
-      "avatar": "5064eddd5c5a158dda83c19f6987cda7",
+      "avatar": "40edff601bd498397f3aa3930d7d18e9",
       "discriminator": "0",
       "public_flags": 0,
       "flags": 0,
@@ -1776,7 +1776,7 @@
     "user": {
       "id": "727975866658979901",
       "username": "kuromiaou",
-      "avatar": "01cec5a801890e8d4c6a2b3bff36ccb8",
+      "avatar": "a_e9fda8de3be671f169129415bbe70ee4",
       "discriminator": "0",
       "public_flags": 256,
       "flags": 256,
@@ -1828,9 +1828,10 @@
     "pending": false,
     "premium_since": null,
     "roles": [
-      "1043572037479829575",
+      "1205583631947399169",
       "1048629296115220580",
       "1048629157183115334",
+      "1043572037479829575",
       "1048628895160746095"
     ],
     "unusual_dm_activity_until": null,

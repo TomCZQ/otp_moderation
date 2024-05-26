@@ -25,6 +25,7 @@ const Timepicker = ({ ligue, fetchEvents, day }) => {
           Authorization: `Bearer ${token}`,
         },
       });
+      console.log(response);
 
       setUser(response.data);
     } catch (err) {
@@ -68,8 +69,10 @@ const Timepicker = ({ ligue, fetchEvents, day }) => {
     const id = `${user.nick || user.username}-${start}-${end}`;
     const resourceId = "a";
     const title = user.nick || user.username;
-
-    console.log("Payload:", { id, resourceId, start, end, title, color: "" });
+    const color = user.roles.includes("1048626805726261248")
+      ? "#f37957"
+      : "#ff3f09";
+    console.log("Payload:", { id, resourceId, start, end, title, color });
 
     try {
       await axios.post(
@@ -80,7 +83,7 @@ const Timepicker = ({ ligue, fetchEvents, day }) => {
           start,
           end,
           title,
-          color: "", // Vous pouvez définir la couleur ici si nécessaire
+          color,
         },
         {
           headers: {
@@ -102,8 +105,8 @@ const Timepicker = ({ ligue, fetchEvents, day }) => {
     <div className="form">
       <h2>Ajout au planning</h2>
       <form onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="startHour">Heure de début:</label>
+        <div className="input">
+          <label htmlFor="startHour">De:</label>
           <input
             type="time"
             id="startHour"
@@ -112,8 +115,8 @@ const Timepicker = ({ ligue, fetchEvents, day }) => {
             required
           />
         </div>
-        <div>
-          <label htmlFor="endHour">Heure de fin:</label>
+        <div className="input">
+          <label htmlFor="endHour">À:</label>
           <input
             type="time"
             id="endHour"
@@ -122,7 +125,7 @@ const Timepicker = ({ ligue, fetchEvents, day }) => {
             required
           />
         </div>
-        <button type="submit">Ajouter l'événement</button>
+        <button type="submit">S'ajouter</button>
       </form>
     </div>
   );

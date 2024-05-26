@@ -3,10 +3,6 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../AuthContext/AuthContext";
 import "./Style/UserProfile.css";
-//import Dropdown from "@mui/joy/Dropdown";
-//import Menu from "@mui/joy/Menu";
-//import MenuButton from "@mui/joy/MenuButton";
-//import MenuItem from "@mui/joy/MenuItem";
 
 const UserProfile = () => {
   const [user, setUser] = useState(null);
@@ -62,16 +58,3 @@ const UserProfile = () => {
 };
 
 export default UserProfile;
-
-/*<Dropdown className="user-logout-container">
-  <MenuButton className="user-profile" variant="plain">
-    <p className="user-nick">{user.nick}</p>
-    <img src={user.avatar} alt="User Avatar" className="user-avatar" />
-  </MenuButton>
-  <Menu>
-    <MenuItem className="menu-element">Profile</MenuItem>
-    <MenuItem onClick={handleLogout} className="logout-button menu-element">
-      Logout
-    </MenuItem>
-  </Menu>
-</Dropdown>;*/

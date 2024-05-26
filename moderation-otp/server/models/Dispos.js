@@ -4,7 +4,6 @@ const DispoSchema = new mongoose.Schema({
   id: {
     type: String,
     required: true,
-    unique: true,
   },
   resourceId: {
     type: String,

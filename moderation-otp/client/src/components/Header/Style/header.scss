@@ -6,50 +6,91 @@ header {
     justify-content: space-between;
     padding: 10px;
     height: 100px;
-    border-bottom: 5px solid #ff3f09;
-    box-shadow: 12px 12px 2px 1px rgba(255, 255, 255, 0.5);
+    border-bottom: 3px solid #ff3f09;
 
+    .title {
 
-    h1 {
+        h1 {
+            font-family: 'Outfit';
+            color: white;
 
-        color: white;
-        font-family: "Montserrat";
-        font-size: 56px;
-
-        position: absolute;
-        left: 50%;
-        top: 24px;
-        transform: translate(-50%, -50%);
-        text-shadow:
-            -2px 2px 0 black;
-
-        text-align: center;
-
-
-    }
-
-    .dropdown {
-        top: 35px;
-        left: 30px;
-    }
-
-    .logo-mode-otp {
-        width: 100px;
-    }
-
-    .navbar {
-        display: flex;
-        gap: 20px;
-
-
-        a {
-            text-decoration: none;
-            font-weight: 500;
+            font-size: 56px;
+            font-weight: 300;
+            position: absolute;
+            left: 50%;
+            top: 24px;
+            transform: translate(-50%, -50%);
+            text-shadow:
+                -2px 2px 0 black;
             text-align: center;
+        }
+
+        .logo {
+            width: 80px;
+            position: relative;
+            right: 640px;
+            padding-top: 10px;
+
+
+        }
+
+
+    }
+
+
+
+}
+
+/*@media (max-width: 768px) {
+
+    header {
+        flex-direction: column-reverse;
+        border-bottom: 2px solid #ff3f09;
+
+        .title {
+            width: 100%;
+            display: flex;
+            flex-direction: row-reverse;
+            padding-bottom: -10px;
+
+            h1 {
+                width: 100%;
+                font-size: 40px;
+                font-weight: 600;
+
+            }
+
+            img {
+                position: relative;
+                height: 32px;
+                width: 32px;
+                top: 100px;
+                right: 500px;
+            }
+        }
+
+        .navbar {
+            position: relative;
+            padding: 0;
+            top: 10px;
+
+            .slider {
+                position: absolute;
+                top: 28px;
+                left: 0px;
+                height: 2px;
+                width: 125px;
+                background-color: #ff3f09;
+                transition: all 0.3s ease-out;
+
+            }
+
+
+
+            .user-logout-container {
+                width: 150px
+            }
         }
     }
 
-    .active-link-header {
-        color: #ff3f09;
-    }
-}
+}*/

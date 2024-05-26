@@ -14,34 +14,40 @@ import IndexLeagues from "./pages/IndexLeagues/IndexLeagues";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import PublicRoute from "./components/PublicRoute/PublicRoute";
 import { AuthProvider } from "./components/AuthContext/AuthContext";
-import Planning from "./pages/Planning";
+import Planning from "./pages/Planning/Planning";
+import "./style/app.css";
 
 const App = () => {
   return (
     <AuthProvider>
       <Router>
-        <Header />
-        <main>
-          <Routes>
-            <Route path="/login" element={<PublicRoute element={Login} />} />
-            <Route path="/accueil" element={<PrivateRoute element={Home} />} />
-            <Route
-              path="/modos"
-              element={<PrivateRoute element={Moderateurs} />}
-            />
-            <Route
-              path="/planning/:league"
-              element={<PrivateRoute element={Planning} />}
-            />
-            <Route
-              exact
-              path="/planning"
-              element={<PrivateRoute element={IndexLeagues} />}
-            />
-            <Route path="*" element={<Navigate to="/accueil" replace />} />
-          </Routes>
-        </main>
-        <Footer />
+        <div className="full-height">
+          <Header />
+          <main>
+            <Routes>
+              <Route path="/login" element={<PublicRoute element={Login} />} />
+              <Route
+                path="/accueil"
+                element={<PrivateRoute element={Home} />}
+              />
+              <Route
+                path="/modos"
+                element={<PrivateRoute element={Moderateurs} />}
+              />
+              <Route
+                path="/planning/:league"
+                element={<PrivateRoute element={Planning} />}
+              />
+              <Route
+                exact
+                path="/planning"
+                element={<PrivateRoute element={IndexLeagues} />}
+              />
+              <Route path="*" element={<Navigate to="/accueil" replace />} />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
       </Router>
     </AuthProvider>
   );

@@ -64,21 +64,24 @@
 .login-container .form-login .input-password input[type=text],
 .login-container .form-login .input-password input[type=password] {
   font-family: "Montserrat";
+  color: #1b1b1b;
   font-size: 18px;
   border: none;
   padding: 0;
 }
 .login-container .form-login button {
-  background-color: #ff3f09;
+  background-color: #1b1b1b;
   color: white;
-  padding: 5px 10px;
-  border-radius: 25px;
-  font-weight: 700;
+  width: 160px;
+  height: 40px;
   font-size: 18px;
-  width: 260px;
-  height: 35px;
-  cursor: pointer;
+  border: #ff3f09 1px solid;
+  border-radius: 25px;
+  transition: all 0.2s ease-out;
+}
+.login-container .form-login button:hover {
+  background-color: #ff3f09;
 }
 .login-container .form-login button:active {
-  scale: 0.98;
+  scale: 0.95;
 }/*# sourceMappingURL=login.css.map */

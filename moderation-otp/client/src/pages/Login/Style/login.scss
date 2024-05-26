@@ -69,7 +69,9 @@
 
             input[type="text"],
             input[type="password"] {
+
                 font-family: 'Montserrat';
+                color: #1b1b1b;
                 font-size: 18px;
                 border: none;
                 padding: 0;
@@ -80,18 +82,21 @@
 
         button {
 
-            background-color: #ff3f09;
+            background-color: #1b1b1b;
             color: white;
-            padding: 5px 10px;
-            border-radius: 25px;
-            font-weight: 700;
+            width: 160px;
+            height: 40px;
             font-size: 18px;
-            width: 260px;
-            height: 35px;
-            cursor: pointer;
+            border: #ff3f09 1px solid;
+            border-radius: 25px;
+            transition: all 0.2s ease-out;
+
+            &:hover {
+                background-color: #ff3f09;
+            }
 
             &:active {
-                scale: 0.98;
+                scale: 0.95;
             }
         }
     }

@@ -1,6 +1,12 @@
 import React from "react";
-import "./Style/navbar.css";
+import "../Navbar-header/Style/navbar.css";
 import { Link, useLocation } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHouse,
+  faCalendar,
+  faShield,
+} from "@fortawesome/free-solid-svg-icons";
 
 const NavbarHeader = () => {
   const location = useLocation();
@@ -10,28 +16,38 @@ const NavbarHeader = () => {
     <div className="navbar">
       <Link
         to="/"
-        className={pathName === "/" ? "active-link-header accueil-link" : ""}
+        className={
+          pathName === "/accueil"
+            ? "active-link-header accueil-link"
+            : "accueil-link"
+        }
       >
-        Accueil
+        <FontAwesomeIcon icon={faHouse} />
+        ACCUEIL
       </Link>
       <Link
         to="/planning"
         className={
-          pathName === "/plannings" ? "active-link-header plannings-link" : ""
+          pathName.startsWith("/planning")
+            ? "active-link-header planning-link"
+            : "planning-link"
         }
       >
-        Plannings
+        <FontAwesomeIcon icon={faCalendar} />
+        PLANNING
       </Link>
       <Link
         to="/modos"
         className={
-          pathName === "/moderateurs"
+          pathName.startsWith("/modos")
             ? "active-link-header moderateurs-link"
-            : "propos-link"
+            : "moderateurs-link"
         }
       >
-        Modos
+        <FontAwesomeIcon icon={faShield} />
+        MODOS
       </Link>
+      <div className="slider"></div>
     </div>
   );
 };
