@@ -1,67 +1,132 @@
 [
   {
-    "date": "2024-05-25T16:00:00.000Z",
-    "bo": 1,
-    "title": "",
-    "teams": [
-      "Esprit Shōnen",
-      "Klanik Esport"
-    ],
-    "accronyms": [
-      "ES",
-      "KE"
-    ]
-  },
-  {
-    "date": "2024-05-25T17:00:00.000Z",
+    "date": "2024-05-28T16:00:00.000Z",
     "bo": 1,
     "title": "",
     "teams": [
       "Akroma",
-      "Ici Japon Corp. Esport"
-    ],
-    "accronyms": [
-      "AKR",
-      "IJC"
-    ]
-  },
-  {
-    "date": "2024-05-25T18:00:00.000Z",
-    "bo": 1,
-    "title": "",
-    "teams": [
-      "JobLife",
       "Project Conquerors"
     ],
     "accronyms": [
-      "JL",
+      "AKR",
       "PCS"
     ]
   },
   {
-    "date": "2024-05-25T19:00:00.000Z",
+    "date": "2024-05-28T17:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "IZIDREAM",
+      "JobLife"
+    ],
+    "accronyms": [
+      "IZI",
+      "JL"
+    ]
+  },
+  {
+    "date": "2024-05-28T18:00:00.000Z",
     "bo": 1,
     "title": "",
     "teams": [
       "Zerance",
-      "IZIDREAM"
+      "Esprit Shōnen"
     ],
     "accronyms": [
       "ZER",
-      "IZI"
+      "ES"
     ]
   },
   {
-    "date": "2024-05-25T20:00:00.000Z",
+    "date": "2024-05-28T19:00:00.000Z",
     "bo": 1,
     "title": "",
     "teams": [
       "Montpellier HSC Esports",
-      "Lille Esport"
+      "Ici Japon Corp. Esport"
     ],
     "accronyms": [
       "MHSC",
-      "LIL"
+      "IJC"
+    ]
+  },
+  {
+    "date": "2024-05-28T20:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Lille Esport",
+      "Klanik Esport"
+    ],
+    "accronyms": [
+      "LIL",
+      "KE"
+    ]
+  },
+  {
+    "date": "2024-05-31T16:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Montpellier HSC Esports",
+      "Akroma"
+    ],
+    "accronyms": [
+      "MHSC",
+      "AKR"
+    ]
+  },
+  {
+    "date": "2024-05-31T17:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "IZIDREAM",
+      "Esprit Shōnen"
+    ],
+    "accronyms": [
+      "IZI",
+      "ES"
+    ]
+  },
+  {
+    "date": "2024-05-31T18:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Ici Japon Corp. Esport",
+      "Zerance"
+    ],
+    "accronyms": [
+      "IJC",
+      "ZER"
+    ]
+  },
+  {
+    "date": "2024-05-31T19:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "JobLife",
+      "Klanik Esport"
+    ],
+    "accronyms": [
+      "JL",
+      "KE"
+    ]
+  },
+  {
+    "date": "2024-05-31T20:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Lille Esport",
+      "Project Conquerors"
+    ],
+    "accronyms": [
+      "LIL",
+      "PCS"
     ]
   }
 ]

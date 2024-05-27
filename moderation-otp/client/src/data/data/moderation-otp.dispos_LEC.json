@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "664d2228a0798505198bf7ca"
+  },
+  "id": "1",
+  "resourceId": "a",
+  "start": "2024-05-23:17:30:00",
+  "end": "2024-05-23T20:00:00",
+  "title": "Tom",
+  "color": "red"
+},
+{
+  "_id": {
+    "$oid": "664d2228a0798505198bf7cb"
+  },
+  "id": "1",
+  "resourceId": "a",
+  "start": "2024-05-23T20:30:00",
+  "end": "2024-05-23T21:30:00",
+  "title": "Tom",
+  "color": "red"
+},
+{
+  "_id": {
+    "$oid": "664d2228a0798505198bf7cc"
+  },
+  "id": "2",
+  "resourceId": "a",
+  "start": "2024-05-23T17:00:00",
+  "end": "2024-05-23T21:00:00",
+  "title": "Nokatir",
+  "color": "green"
+},
+{
+  "_id": {
+    "$oid": "664d2228a0798505198bf7cd"
+  },
+  "id": "3",
+  "resourceId": "a",
+  "start": "2024-05-23T18:00:00",
+  "end": "2024-05-23T23:00:00",
+  "title": "Prune",
+  "color": "blue"
+},
+{
+  "_id": {
+    "$oid": "664d2228a0798505198bf7ce"
+  },
+  "id": "4",
+  "resourceId": "a",
+  "start": "2024-05-23T17:00:00",
+  "end": "2024-05-23T22:00:00",
+  "title": "Jodelus",
+  "color": "purple"
+},
+{
+  "_id": {
+    "$oid": "664d2228a0798505198bf7cf"
+  },
+  "id": "5",
+  "resourceId": "a",
+  "start": "2024-05-23T19:30:00",
+  "end": "2024-05-23T20:30:00",
+  "title": "sMOUMy",
+  "color": "orange"
+}]

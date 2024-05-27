@@ -1,0 +1,67 @@
+[
+  {
+    "date": "2024-06-01T16:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Esprit Shōnen",
+      "Akroma"
+    ],
+    "accronyms": [
+      "ES",
+      "AKR"
+    ]
+  },
+  {
+    "date": "2024-06-01T17:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Project Conquerors",
+      "IZIDREAM"
+    ],
+    "accronyms": [
+      "PCS",
+      "IZI"
+    ]
+  },
+  {
+    "date": "2024-06-01T18:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Klanik Esport",
+      "Ici Japon Corp. Esport"
+    ],
+    "accronyms": [
+      "KE",
+      "IJC"
+    ]
+  },
+  {
+    "date": "2024-06-01T19:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Lille Esport",
+      "JobLife"
+    ],
+    "accronyms": [
+      "LIL",
+      "JL"
+    ]
+  },
+  {
+    "date": "2024-06-01T20:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Montpellier HSC Esports",
+      "Zerance"
+    ],
+    "accronyms": [
+      "MHSC",
+      "ZER"
+    ]
+  }
+]
