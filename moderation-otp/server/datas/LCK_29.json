@@ -1,0 +1,132 @@
+[
+  {
+    "date": "2024-07-13T06:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "Gen.G",
+      "Dplus KIA"
+    ],
+    "accronyms": [
+      "GEN",
+      "DK"
+    ]
+  },
+  {
+    "date": "2024-07-13T08:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "NongShim REDFORCE",
+      "OKSavingsBank BRION"
+    ],
+    "accronyms": [
+      "NS",
+      "BRO"
+    ]
+  },
+  {
+    "date": "2024-07-14T06:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "Kwangdong Freecs",
+      "DRX"
+    ],
+    "accronyms": [
+      "KDF",
+      "DRX"
+    ]
+  },
+  {
+    "date": "2024-07-14T08:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "BNK FearX",
+      "Hanwha Life Esports"
+    ],
+    "accronyms": [
+      "FOX",
+      "HLE"
+    ]
+  },
+  {
+    "date": "2024-07-17T08:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "OKSavingsBank BRION",
+      "Dplus KIA"
+    ],
+    "accronyms": [
+      "BRO",
+      "DK"
+    ]
+  },
+  {
+    "date": "2024-07-17T10:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "Kwangdong Freecs",
+      "Hanwha Life Esports"
+    ],
+    "accronyms": [
+      "KDF",
+      "HLE"
+    ]
+  },
+  {
+    "date": "2024-07-18T08:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "T1",
+      "BNK FearX"
+    ],
+    "accronyms": [
+      "T1",
+      "FOX"
+    ]
+  },
+  {
+    "date": "2024-07-18T10:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "NongShim REDFORCE",
+      "Gen.G"
+    ],
+    "accronyms": [
+      "NS",
+      "GEN"
+    ]
+  },
+  {
+    "date": "2024-07-19T08:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "kt Rolster",
+      "DRX"
+    ],
+    "accronyms": [
+      "KT",
+      "DRX"
+    ]
+  },
+  {
+    "date": "2024-07-19T10:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "Kwangdong Freecs",
+      "OKSavingsBank BRION"
+    ],
+    "accronyms": [
+      "KDF",
+      "BRO"
+    ]
+  }
+]

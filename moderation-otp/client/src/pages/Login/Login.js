@@ -57,7 +57,7 @@ const Login = () => {
         {error && (
           <p className="error">
             {error}
-            <img src={kekl}></img>
+            <img src={kekl} alt="kekl"></img>
           </p>
         )}
       </form>

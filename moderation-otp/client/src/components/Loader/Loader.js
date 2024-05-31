@@ -1,5 +1,6 @@
 import "./Style/loader.css";
 import logo from "../../assets/logo_mode_otp.png";
+import React from "react";
 
 export default function Loader() {
   return (

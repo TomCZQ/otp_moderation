@@ -1,0 +1,132 @@
+[
+  {
+    "date": "2024-08-10T06:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "BNK FearX",
+      "Kwangdong Freecs"
+    ],
+    "accronyms": [
+      "FOX",
+      "KDF"
+    ]
+  },
+  {
+    "date": "2024-08-10T08:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "Hanwha Life Esports",
+      "DRX"
+    ],
+    "accronyms": [
+      "HLE",
+      "DRX"
+    ]
+  },
+  {
+    "date": "2024-08-11T06:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "NongShim REDFORCE",
+      "Dplus KIA"
+    ],
+    "accronyms": [
+      "NS",
+      "DK"
+    ]
+  },
+  {
+    "date": "2024-08-11T08:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "T1",
+      "OKSavingsBank BRION"
+    ],
+    "accronyms": [
+      "T1",
+      "BRO"
+    ]
+  },
+  {
+    "date": "2024-08-14T08:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "kt Rolster",
+      "DRX"
+    ],
+    "accronyms": [
+      "KT",
+      "DRX"
+    ]
+  },
+  {
+    "date": "2024-08-14T10:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "T1",
+      "Kwangdong Freecs"
+    ],
+    "accronyms": [
+      "T1",
+      "KDF"
+    ]
+  },
+  {
+    "date": "2024-08-15T08:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "BNK FearX",
+      "Hanwha Life Esports"
+    ],
+    "accronyms": [
+      "FOX",
+      "HLE"
+    ]
+  },
+  {
+    "date": "2024-08-15T10:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "OKSavingsBank BRION",
+      "Dplus KIA"
+    ],
+    "accronyms": [
+      "BRO",
+      "DK"
+    ]
+  },
+  {
+    "date": "2024-08-16T08:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "Kwangdong Freecs",
+      "DRX"
+    ],
+    "accronyms": [
+      "KDF",
+      "DRX"
+    ]
+  },
+  {
+    "date": "2024-08-16T10:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "NongShim REDFORCE",
+      "Gen.G"
+    ],
+    "accronyms": [
+      "NS",
+      "GEN"
+    ]
+  }
+]

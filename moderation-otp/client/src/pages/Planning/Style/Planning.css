@@ -74,7 +74,7 @@
   padding: 10px;
   padding-right: 20px;
   padding-left: 7px;
-  box-shadow: 10px 10px 5px 0px rgba(141, 22, 6, 0.2);
+  box-shadow: 10px 10px 5px 0px rgba(141, 22, 6, 0.15);
 }
 .main-container-planning h2 svg {
   margin-right: 50px;
@@ -142,6 +142,7 @@
 .main-container-planning .planning-container .timetable-container .programme {
   background-color: #1b1b1b;
   color: #ff3f09;
+  box-shadow: 10px 10px 5px 0px rgba(141, 22, 6, 0.15);
   position: relative;
   display: flex;
   flex-direction: column;

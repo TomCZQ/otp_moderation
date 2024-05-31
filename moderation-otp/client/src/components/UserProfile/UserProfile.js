@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../AuthContext/AuthContext";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faRightFromBracket } from "@fortawesome/free-solid-svg-icons";
 import "./Style/UserProfile.css";
 
 const UserProfile = () => {
@@ -46,6 +48,7 @@ const UserProfile = () => {
     <div className="user-logout-container">
       <button onClick={handleLogout} className="logout-button">
         Déconnexion
+        <FontAwesomeIcon icon={faRightFromBracket} />
       </button>
       <div className="user-profile">
         <p className="user-nick">{user.nick}</p>

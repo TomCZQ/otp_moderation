@@ -72,7 +72,7 @@ const Planning = () => {
 
             <p>
               {"(ou alors c'est pas encore à jour)"}
-              <img src={prankex}></img>
+              <img src={prankex} alt="prankex"></img>
             </p>
           </div>
         ) : (

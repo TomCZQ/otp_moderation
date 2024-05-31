@@ -610,7 +610,7 @@
     "user": {
       "id": "244473978033405953",
       "username": "emma_ptitpiaf",
-      "avatar": "4e5503a4b60018f238e9c263426193b5",
+      "avatar": "a_c13219a643cd4caeb4b328c09a29f4a5",
       "discriminator": "0",
       "public_flags": 0,
       "flags": 0,
@@ -852,36 +852,6 @@
       "banner": null,
       "accent_color": null,
       "global_name": "Gillow",
-      "avatar_decoration_data": null,
-      "banner_color": null,
-      "clan": null
-    },
-    "mute": false,
-    "deaf": false
-  },
-  {
-    "avatar": null,
-    "communication_disabled_until": null,
-    "flags": 0,
-    "joined_at": "2024-02-13T19:09:41.122000+00:00",
-    "nick": "branaglol",
-    "pending": false,
-    "premium_since": null,
-    "roles": [
-      "1048629004711776306",
-      "1043572037479829575"
-    ],
-    "unusual_dm_activity_until": null,
-    "user": {
-      "id": "298858405135646720",
-      "username": "dams1708",
-      "avatar": "ea8535546feea5c486a0195f6634f209",
-      "discriminator": "0",
-      "public_flags": 0,
-      "flags": 0,
-      "banner": null,
-      "accent_color": null,
-      "global_name": "Dam’s",
       "avatar_decoration_data": null,
       "banner_color": null,
       "clan": null
@@ -1326,7 +1296,7 @@
     "pending": false,
     "premium_since": null,
     "roles": [
-      "1043572037479829575"
+      "1048629329099231302"
     ],
     "unusual_dm_activity_until": null,
     "user": {
@@ -1574,9 +1544,7 @@
     "pending": false,
     "premium_since": null,
     "roles": [
-      "1043572037479829575",
-      "1048629157183115334",
-      "1048628682434039838"
+      "1048629329099231302"
     ],
     "unusual_dm_activity_until": null,
     "user": {
@@ -1857,7 +1825,7 @@
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-01-18T11:25:21.716000+00:00",
-    "nick": "Maëlleuh",
+    "nick": "T1 Maëlleuh",
     "pending": false,
     "premium_since": null,
     "roles": [
@@ -1876,7 +1844,7 @@
       "flags": 0,
       "banner": null,
       "accent_color": null,
-      "global_name": "Docteur Fashion",
+      "global_name": "T1 Docteur Fashion",
       "avatar_decoration_data": null,
       "banner_color": null,
       "clan": null

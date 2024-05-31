@@ -22,13 +22,17 @@
     margin-right: -50%;
     transform: translate(-50%, -50%);
     background: white;
-
     padding: 20px;
     border-radius: 8px;
-    border: solid 2px #ff3f09;
+    border: solid 3px #ff3f09;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     align-items: center;
     animation: slideDown 0.3s ease-out;
+    border: none;
+
+    h2 {
+        box-shadow: none;
+    }
 
     .header {
         color: #1b1b1b;

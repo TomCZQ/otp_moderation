@@ -39,9 +39,7 @@ const Timepicker = ({ ligue, fetchEvents, day }) => {
     }
   }, [isAuthenticated]);
 
-  useEffect(() => {
-    console.log("User in Timepicker:", user); // Ajoutez ce log pour vérifier l'utilisateur
-  }, [user]);
+  useEffect(() => {}, [user]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();

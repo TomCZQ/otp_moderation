@@ -1,0 +1,132 @@
+[
+  {
+    "date": "2024-06-05T16:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Gentle Mates",
+      "TDS E-SPORT"
+    ],
+    "accronyms": [
+      "M8",
+      "TDS"
+    ]
+  },
+  {
+    "date": "2024-06-05T17:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Solary",
+      "BK ROG Esports"
+    ],
+    "accronyms": [
+      "SLY",
+      "BKR"
+    ]
+  },
+  {
+    "date": "2024-06-05T18:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "BDS Academy",
+      "Aegis"
+    ],
+    "accronyms": [
+      "BDSA",
+      "AEG"
+    ]
+  },
+  {
+    "date": "2024-06-05T19:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Karmine Corp Blue",
+      "Team GO"
+    ],
+    "accronyms": [
+      "KCB",
+      "GO"
+    ]
+  },
+  {
+    "date": "2024-06-05T20:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Vitality.Bee",
+      "GameWard"
+    ],
+    "accronyms": [
+      "VITB",
+      "GW"
+    ]
+  },
+  {
+    "date": "2024-06-06T16:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Aegis",
+      "GameWard"
+    ],
+    "accronyms": [
+      "AEG",
+      "GW"
+    ]
+  },
+  {
+    "date": "2024-06-06T17:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Vitality.Bee",
+      "Team GO"
+    ],
+    "accronyms": [
+      "VITB",
+      "GO"
+    ]
+  },
+  {
+    "date": "2024-06-06T18:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Solary",
+      "Gentle Mates"
+    ],
+    "accronyms": [
+      "SLY",
+      "M8"
+    ]
+  },
+  {
+    "date": "2024-06-06T19:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Karmine Corp Blue",
+      "BK ROG Esports"
+    ],
+    "accronyms": [
+      "KCB",
+      "BKR"
+    ]
+  },
+  {
+    "date": "2024-06-06T20:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "BDS Academy",
+      "TDS E-SPORT"
+    ],
+    "accronyms": [
+      "BDSA",
+      "TDS"
+    ]
+  }
+]

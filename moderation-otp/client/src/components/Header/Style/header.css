@@ -22,9 +22,11 @@ header .title h1 {
 }
 header .title .logo {
   width: 80px;
-  position: relative;
-  right: 640px;
+  position: absolute;
+  left: 50%;
+  padding-left: 520px;
   padding-top: 10px;
+  transform: translate(-50%, -50%);
 }
 
 /*@media (max-width: 768px) {

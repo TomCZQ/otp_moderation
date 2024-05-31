@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import FullCalendar from "@fullcalendar/react";
 import resourceTimelinePlugin from "@fullcalendar/resource-timeline";
 import interactionPlugin from "@fullcalendar/interaction";
@@ -13,7 +13,12 @@ const Timetable = ({ day, matches, ligue }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [eventToDelete, setEventToDelete] = useState(null);
 
-  const fetchEvents = async () => {
+  // Trier les matches par date avant de les traiter
+  const sortedMatches = matches
+    .slice()
+    .sort((a, b) => new Date(a.date) - new Date(b.date));
+
+  const fetchEvents = useCallback(async () => {
     try {
       const response = await fetch(
         `http://localhost:3001/api/dispos?ligue=${ligue}`
@@ -22,21 +27,24 @@ const Timetable = ({ day, matches, ligue }) => {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
       const data = await response.json();
-      setEvents(data);
+      const sortedData = data.sort(
+        (a, b) => new Date(a.start) - new Date(b.start)
+      );
+      setEvents(sortedData);
     } catch (error) {
       console.error("Erreur lors de la récupération des événements :", error);
     }
-  };
+  }, [ligue]);
 
   useEffect(() => {
     fetchEvents();
-  }, [ligue]);
+  }, [fetchEvents]);
 
-  if (!matches || matches.length === 0) {
+  if (!sortedMatches || sortedMatches.length === 0) {
     return <p>Il n'y a pas de {ligue} cette semaine.</p>;
   }
 
-  const matchesByDay = matches.reduce((acc, match) => {
+  const matchesByDay = sortedMatches.reduce((acc, match) => {
     const matchDay = dayjs(match.date).format("YYYY-MM-DD");
     if (!acc[matchDay]) {
       acc[matchDay] = [];

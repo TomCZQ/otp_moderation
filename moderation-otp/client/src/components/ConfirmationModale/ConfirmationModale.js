@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Modal from "react-modal";
 import "../ConfirmationModale/ConfirmationModale.css";
 Modal.setAppElement("#root");
@@ -9,6 +9,10 @@ const ConfirmationModal = ({
   onConfirm,
   eventTitle,
 }) => {
+  useEffect(() => {
+    console.log("Modal isOpen state changed:", isOpen);
+  }, [isOpen]);
+
   return (
     <Modal
       isOpen={isOpen}
@@ -16,6 +20,7 @@ const ConfirmationModal = ({
       contentLabel="Confirmation Modal"
       className="modal"
       overlayClassName="overlay"
+      shouldCloseOnOverlayClick={true} // Allows closing the modal by clicking on the overlay
     >
       <div className="header">
         <h2>Confirmer la suppression</h2>
