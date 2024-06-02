@@ -5,7 +5,7 @@ const discordController = require("../controllers/discordController");
 const { authenticateToken } = require("../middleware/auth");
 const { loginUserValidator } = require("../validator/User"); // Le nom du fichier est sensible à la casse
 
-const { runValidation } = require("../validator/index");
+const { runValidation } = require("../validator/Index");
 const { disposValidator } = require("../validator/Dispos");
 
 router.get("/members", discordController.getMembers);
