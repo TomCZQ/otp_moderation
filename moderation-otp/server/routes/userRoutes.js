@@ -3,8 +3,8 @@ const router = express.Router();
 const userController = require("../controllers/userController");
 const discordController = require("../controllers/discordController");
 const { authenticateToken } = require("../middleware/auth");
-const { loginUserValidator, runValidation } = require("../validator/User"); // Le nom du fichier est sensible à la casse
-
+const { loginUserValidator } = require("../validator/Dispos"); // Le nom du fichier est sensible à la casse
+const { runValidation } = require("../validator/index");
 const { disposValidator } = require("../validator/Dispos");
 
 router.get("/members", discordController.getMembers);
