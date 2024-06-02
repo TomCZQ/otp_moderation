@@ -3,7 +3,7 @@ const router = express.Router();
 const userController = require("../controllers/userController");
 const discordController = require("../controllers/discordController");
 const { authenticateToken } = require("../middleware/auth");
-const { loginUserValidator } = require("../validator/user");
+const { loginUserValidator } = require("../validator/User");
 const { runValidation } = require("../validator/index");
 const { disposValidator } = require("../validator/Dispos");
 
