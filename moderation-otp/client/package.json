@@ -68,7 +68,7 @@
     ]
   },
   "proxy": "http://localhost:3001",
-  "homepage": "https://TomCZQ.github.io/login",
+  "homepage": "https://www.moderation-otp.fr",
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
