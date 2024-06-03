@@ -3,14 +3,22 @@ const router = express.Router();
 const userController = require("../controllers/userController");
 const discordController = require("../controllers/discordController");
 const { authenticateToken } = require("../middleware/auth");
-const { index } = require("../validator/index");
+const { loginUserValidator } = require("../validator/User");
+const { runValidation } = require("../validator/index");
+const { disposValidator } = require("../validator/Dispos");
+
 router.get("/members", discordController.getMembers);
 
-router.post("/login", index.runValidation, userController.loginUser);
+router.post(
+  "/login",
+  loginUserValidator,
+  runValidation,
+  userController.loginUser
+);
 
 router.get(
   "/me",
-
+  disposValidator,
   authenticateToken,
   userController.getUserDetails
 );
