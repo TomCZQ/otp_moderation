@@ -1,4 +1,4 @@
-/*const { check } = require("express-validator");
+const { check } = require("express-validator");
 
 exports.loginUserValidator = [
   check("username")
@@ -9,4 +9,4 @@ exports.loginUserValidator = [
     .not()
     .isEmpty()
     .withMessage("Le mot de passe c'est pas une option hein"),
-];*/
+];
