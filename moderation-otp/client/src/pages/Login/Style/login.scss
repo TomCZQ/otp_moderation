@@ -44,7 +44,7 @@
         .input-password {
             display: flex;
             flex-direction: column;
-            color: white;
+            color: #1b1b1b;
             align-items: center;
             gap: 10px;
             font-size: 18px;
@@ -59,12 +59,18 @@
 
             }
 
+            input:focus {
+                outline: none;
+                /* Ajoute une ombre au lieu de la bordure */
+            }
+
+
 
 
 
             input[type="text"],
             textarea {
-                background-color: #1b1b1b;
+                background-color: white;
             }
 
             input[type="text"],

@@ -39,7 +39,7 @@
 .login-container .form-login .input-password {
   display: flex;
   flex-direction: column;
-  color: white;
+  color: #1b1b1b;
   align-items: center;
   gap: 10px;
   font-size: 18px;
@@ -53,11 +53,16 @@
   text-indent: 10px;
   border: none;
 }
+.login-container .form-login .input-username input:focus,
+.login-container .form-login .input-password input:focus {
+  outline: none;
+  /* Ajoute une ombre au lieu de la bordure */
+}
 .login-container .form-login .input-username input[type=text],
 .login-container .form-login .input-username textarea,
 .login-container .form-login .input-password input[type=text],
 .login-container .form-login .input-password textarea {
-  background-color: #1b1b1b;
+  background-color: white;
 }
 .login-container .form-login .input-username input[type=text],
 .login-container .form-login .input-username input[type=password],
