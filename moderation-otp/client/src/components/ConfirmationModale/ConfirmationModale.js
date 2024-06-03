@@ -9,9 +9,7 @@ const ConfirmationModal = ({
   onConfirm,
   eventTitle,
 }) => {
-  useEffect(() => {
-    console.log("Modal isOpen state changed:", isOpen);
-  }, [isOpen]);
+  useEffect(() => {}, [isOpen]);
 
   return (
     <Modal

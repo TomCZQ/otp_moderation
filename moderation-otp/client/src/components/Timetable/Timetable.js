@@ -66,8 +66,6 @@ const Timetable = ({ day, matches, ligue }) => {
       return;
     }
 
-    console.log("Deleting event ID:", eventId);
-
     try {
       const token = localStorage.getItem("token");
       const response = await fetch(
@@ -86,8 +84,6 @@ const Timetable = ({ day, matches, ligue }) => {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
-
-      console.log("Event deleted successfully");
 
       setEvents((prevEvents) =>
         prevEvents.filter((event) => event.id !== eventId)

@@ -14,7 +14,7 @@ const app = express();
 app.use(morgan("dev"));
 app.use(
   cors({
-    origin: process.env.FRONT_URL,
+    origin: [process.env.FRONT_URL, "http://localhost:3000"],
     methods: ["GET", "POST", "DELETE"],
     allowedHeaders: "*",
     credentials: true,

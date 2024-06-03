@@ -28,7 +28,6 @@ const Timepicker = ({ ligue, fetchEvents, day }) => {
           },
         }
       );
-      console.log(response);
 
       setUser(response.data);
     } catch (err) {
@@ -73,7 +72,6 @@ const Timepicker = ({ ligue, fetchEvents, day }) => {
     const color = user.roles.includes("1048626805726261248")
       ? "#f37957"
       : "#ff3f09";
-    console.log("Payload:", { id, resourceId, start, end, title, color });
 
     try {
       await axios.post(
