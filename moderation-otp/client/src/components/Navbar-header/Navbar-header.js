@@ -15,7 +15,7 @@ const NavbarHeader = () => {
   return (
     <div className="navbar">
       <Link
-        to="/"
+        to="/accueil"
         className={
           pathName === "/accueil"
             ? "active-link-header accueil-link"
