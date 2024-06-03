@@ -9,7 +9,7 @@ const Members = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/api/users/members")
+      .get("https://www.moderation-otp.fr/api/users/members")
       .then((response) => {
         const filteredMembers = response.data
           .filter((member) => member.roles.includes("1043572037479829575"))

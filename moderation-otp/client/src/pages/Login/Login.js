@@ -22,7 +22,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:3001/api/users/login",
+        "https://moderation-otp.fr/api/users/login",
         { username, password }
       );
       login(response.data.token);

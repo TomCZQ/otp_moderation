@@ -20,11 +20,14 @@ const Timepicker = ({ ligue, fetchEvents, day }) => {
         return;
       }
 
-      const response = await axios.get("http://localhost:3001/api/users/me", {
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
-      });
+      const response = await axios.get(
+        "https://www.moderation-otp.fr/api/users/me",
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
       console.log(response);
 
       setUser(response.data);
@@ -74,7 +77,7 @@ const Timepicker = ({ ligue, fetchEvents, day }) => {
 
     try {
       await axios.post(
-        "http://localhost:3001/api/dispos",
+        "https://www.moderation-otp.fr/api/dispos",
         {
           id,
           resourceId,

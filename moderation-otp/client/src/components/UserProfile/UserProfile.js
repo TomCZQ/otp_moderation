@@ -20,11 +20,14 @@ const UserProfile = () => {
           return;
         }
 
-        const response = await axios.get("http://localhost:3001/api/users/me", {
-          headers: {
-            Authorization: `Bearer ${token}`,
-          },
-        });
+        const response = await axios.get(
+          "https://www.moderation-otp.fr/api/users/me",
+          {
+            headers: {
+              Authorization: `Bearer ${token}`,
+            },
+          }
+        );
 
         setUser(response.data);
       } catch (err) {

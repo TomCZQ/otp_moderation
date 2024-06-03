@@ -28,7 +28,7 @@ const Planning = () => {
   };
 
   useEffect(() => {
-    const apiURL = `http://localhost:3001/api/matches`;
+    const apiURL = `https://www.moderation-otp.fr/api/matches`;
 
     axios
       .get(apiURL, {

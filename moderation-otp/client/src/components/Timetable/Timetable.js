@@ -21,7 +21,7 @@ const Timetable = ({ day, matches, ligue }) => {
   const fetchEvents = useCallback(async () => {
     try {
       const response = await fetch(
-        `http://localhost:3001/api/dispos?ligue=${ligue}`
+        `https://www.moderation-otp.fr/api/dispos?ligue=${ligue}`
       );
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -71,7 +71,7 @@ const Timetable = ({ day, matches, ligue }) => {
     try {
       const token = localStorage.getItem("token");
       const response = await fetch(
-        `http://localhost:3001/api/dispos`, // Change the endpoint as needed
+        `https://www.moderation-otp.fr/api/dispos`, // Change the endpoint as needed
         {
           method: "DELETE",
           headers: {
