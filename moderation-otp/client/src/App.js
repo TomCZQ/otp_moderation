@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   BrowserRouter as Router,
   Route,
   Routes,
   Navigate,
+  useLocation,
 } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Moderateurs from "./pages/Moderateurs";
@@ -21,35 +22,52 @@ const App = () => {
   return (
     <AuthProvider>
       <Router>
-        <div className="full-height">
-          <Header />
-          <main>
-            <Routes>
-              <Route path="/login" element={<PublicRoute element={Login} />} />
-              <Route
-                path="/accueil"
-                element={<PrivateRoute element={Home} />}
-              />
-              <Route
-                path="/modos"
-                element={<PrivateRoute element={Moderateurs} />}
-              />
-              <Route
-                path="/planning/:league"
-                element={<PrivateRoute element={Planning} />}
-              />
-              <Route
-                exact
-                path="/planning"
-                element={<PrivateRoute element={IndexLeagues} />}
-              />
-              <Route path="*" element={<Navigate to="/accueil" replace />} />
-            </Routes>
-          </main>
-          <Footer />
-        </div>
+        <MainApp />
       </Router>
     </AuthProvider>
+  );
+};
+
+const MainApp = () => {
+  const [lastVisitedPage, setLastVisitedPage] = useState("/accueil");
+  const location = useLocation();
+
+  useEffect(() => {
+    localStorage.setItem("lastVisitedPage", location.pathname);
+  }, [location]);
+
+  useEffect(() => {
+    const storedPage = localStorage.getItem("lastVisitedPage");
+    if (storedPage) {
+      setLastVisitedPage(storedPage);
+    }
+  }, []);
+
+  return (
+    <div className="full-height">
+      <Header />
+      <main>
+        <Routes>
+          <Route path="/login" element={<PublicRoute element={Login} />} />
+          <Route path="/accueil" element={<PrivateRoute element={Home} />} />
+          <Route
+            path="/modos"
+            element={<PrivateRoute element={Moderateurs} />}
+          />
+          <Route
+            path="/planning/:league"
+            element={<PrivateRoute element={Planning} />}
+          />
+          <Route
+            exact
+            path="/planning"
+            element={<PrivateRoute element={IndexLeagues} />}
+          />
+          <Route path="*" element={<Navigate to={lastVisitedPage} replace />} />
+        </Routes>
+      </main>
+      <Footer />
+    </div>
   );
 };
 

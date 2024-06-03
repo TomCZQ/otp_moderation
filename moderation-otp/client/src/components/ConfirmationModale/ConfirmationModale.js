@@ -18,7 +18,7 @@ const ConfirmationModal = ({
       contentLabel="Confirmation Modal"
       className="modal"
       overlayClassName="overlay"
-      shouldCloseOnOverlayClick={true} // Allows closing the modal by clicking on the overlay
+      shouldCloseOnOverlayClick={true}
     >
       <div className="header">
         <h2>Confirmer la suppression</h2>
