@@ -34,7 +34,7 @@ const Members = () => {
       <h1>Modos</h1>
       <div className="members">
         {members.map((member) => (
-          <a key={member.userId} className="member" href="/user">
+          <a key={member.userId} className="member" href="#">
             <p>{member.nick}</p>
             <img
               src={
