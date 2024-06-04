@@ -64,17 +64,17 @@
   scale: 0.95;
 }
 
-/*@media (max-width: 768px) {
-    .user-logout-container {
-        background-color: transparent;
-        width: 0px;
-        flex-direction: column-reverse;
-        gap: 0px;
-        left: 80px;
-        top: 60px;
-
-        .logout-button {
-            margin-top: 0px;
-        }
-    }
-}*//*# sourceMappingURL=UserProfile.css.map */
+@media (max-width: 768px) {
+  .user-logout-container {
+    background-color: transparent;
+    width: 0px;
+    flex-direction: column-reverse;
+    gap: 0px;
+    left: 80px;
+    top: 60px;
+  }
+  .user-logout-container .logout-button {
+    margin-top: 0px;
+    border: 3px solid #ff3f09;
+  }
+}/*# sourceMappingURL=UserProfile.css.map */

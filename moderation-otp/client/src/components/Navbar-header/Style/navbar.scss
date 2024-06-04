@@ -1,3 +1,6 @@
+/* Style de base de la navbar */
+
+
 .navbar {
     position: relative;
     padding-left: 30px;
@@ -6,6 +9,16 @@
     flex-direction: row;
     font-size: 20px;
     gap: 30px;
+    width: 100%;
+
+    .MuiButtonBase-root {
+        display: none;
+    }
+
+
+    .active-link-header {
+        color: white;
+    }
 
     .slider {
         position: absolute;
@@ -15,7 +28,6 @@
         width: 132px;
         background-color: #ff3f09;
         transition: all 0.3s ease-out;
-
     }
 
     .moderateurs-link.active-link-header~.slider {
@@ -44,22 +56,30 @@
         display: flex;
         flex-direction: row;
         gap: 10px;
+        margin-left: -16px;
 
         &:hover {
             color: #ff3f09;
             scale: 1.03;
-
-
         }
 
         &:hover svg {
-            color: #ff3f09
+            color: #ff3f09;
         }
-
     }
 }
 
-.active-link-header {
-    color: white;
+/* Media query pour les écrans de moins de 1150px de largeur */
+@media (max-width: 1150px) {
+    .navbar-desktop {
+        display: none;
+    }
 
+    .navbar {
+        a {
+            margin-left: -10;
+            align-items: center;
+        }
+
+    }
 }

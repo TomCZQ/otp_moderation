@@ -33,7 +33,7 @@ export default function Footer() {
         ></img>
       </Link>
       <p className="copyrights">©Tom</p>
-      <div className="navbar">
+      <div className="back-to-top">
         <Link onClick={scrollToTop}>
           <FontAwesomeIcon icon={faChevronUp} />
         </Link>

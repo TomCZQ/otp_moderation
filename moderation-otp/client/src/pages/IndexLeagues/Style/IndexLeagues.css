@@ -66,4 +66,16 @@
 .les-assets-de-bixente-cest-de-la-merde {
   margin-top: 15px;
   width: 100px;
+}
+
+@media (max-width: 1150px) {
+  .container h2 {
+    margin-top: -40px;
+  }
+  .container .link-container {
+    flex-wrap: wrap;
+    max-width: 90%;
+    padding-bottom: 40px;
+    padding-top: 20px;
+  }
 }/*# sourceMappingURL=IndexLeagues.css.map */

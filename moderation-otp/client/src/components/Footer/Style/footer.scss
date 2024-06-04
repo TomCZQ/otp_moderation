@@ -10,7 +10,19 @@ footer {
 
 
     svg {
-        font-size: 20px;
+        font-size: 50px;
+        padding-right: 20px;
+        padding-top: 10px;
+        color: white;
+
+        &:hover {
+            color: #ff3f09;
+        }
+
+        &:active {
+            scale: 1.05;
+        }
+
     }
 
     .logo-mode-otp {

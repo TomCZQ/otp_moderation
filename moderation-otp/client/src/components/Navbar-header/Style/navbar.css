@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/* Style de base de la navbar */
 .navbar {
   position: relative;
   padding-left: 30px;
@@ -6,6 +8,13 @@
   flex-direction: row;
   font-size: 20px;
   gap: 30px;
+  width: 100%;
+}
+.navbar .MuiButtonBase-root {
+  display: none;
+}
+.navbar .active-link-header {
+  color: white;
 }
 .navbar .slider {
   position: absolute;
@@ -39,6 +48,7 @@
   display: flex;
   flex-direction: row;
   gap: 10px;
+  margin-left: -16px;
 }
 .navbar a:hover {
   color: #ff3f09;
@@ -48,6 +58,13 @@
   color: #ff3f09;
 }
 
-.active-link-header {
-  color: white;
+/* Media query pour les écrans de moins de 1150px de largeur */
+@media (max-width: 1150px) {
+  .navbar-desktop {
+    display: none;
+  }
+  .navbar a {
+    margin-left: -10;
+    align-items: center;
+  }
 }/*# sourceMappingURL=navbar.css.map */

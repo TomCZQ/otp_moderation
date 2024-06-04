@@ -9,7 +9,16 @@ footer {
   border-top: 3px solid #ff3f09;
 }
 footer svg {
-  font-size: 20px;
+  font-size: 50px;
+  padding-right: 20px;
+  padding-top: 10px;
+  color: white;
+}
+footer svg:hover {
+  color: #ff3f09;
+}
+footer svg:active {
+  scale: 1.05;
 }
 footer .logo-mode-otp {
   width: 100px;
