@@ -6,7 +6,7 @@
   padding-bottom: 10px;
   display: flex;
   flex-direction: row;
-  font-size: 20px;
+  font-size: 16px;
   gap: 30px;
   width: 100%;
 }
@@ -18,20 +18,20 @@
 }
 .navbar .slider {
   position: absolute;
-  top: 28px;
-  left: 26px;
+  top: 22px;
+  left: 12px;
   height: 2px;
-  width: 132px;
+  width: 100px;
   background-color: #ff3f09;
   transition: all 0.3s ease-out;
 }
 .navbar .moderateurs-link.active-link-header ~ .slider {
-  left: 354px;
-  width: 116px;
+  left: 246px;
+  width: 91px;
 }
 .navbar .planning-link.active-link-header ~ .slider {
-  left: 180px;
-  width: 148px;
+  left: 122px;
+  width: 114px;
 }
 .navbar .active-link-header {
   color: #ff3f09;
@@ -47,7 +47,7 @@
   transition: all 0.1s ease-out;
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 5px;
   margin-left: -16px;
 }
 .navbar a:hover {

@@ -37,7 +37,7 @@ export default function TemporaryDrawer() {
   const DrawerList = (
     <Box
       sx={{
-        width: 180,
+        width: 200,
         backgroundColor: "#1b1b1b",
         color: "white",
         height: "100%",
@@ -58,7 +58,7 @@ export default function TemporaryDrawer() {
         <FontAwesomeIcon icon={faBars} />
       </Button>
       <Drawer
-        anchor="left" // Change the anchor to "right"
+        anchor="right" // Change the anchor to "right"
         open={open}
         onClose={handleDrawerClose}
         disableScrollLock={true}

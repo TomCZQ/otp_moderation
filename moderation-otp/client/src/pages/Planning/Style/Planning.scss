@@ -190,3 +190,55 @@
         }
     }
 }
+
+@media (max-width: 1800px) {
+
+    .main-container-planning {
+        box-sizing: border-box;
+        display: flex;
+        width: 100%;
+        gap: 30px;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .planning-container {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .planning-container>div {
+        width: 95%;
+    }
+
+    .main-container-planning .planning-container .timetable-container {
+
+        flex-direction: column;
+        gap: 0px;
+        margin: 0;
+        padding: 0;
+        padding-top: 30px;
+        width: 100%;
+        border: 1px solid #ff3f09;
+
+        h2 {
+            margin-left: 5px;
+        }
+    }
+
+    .main-container-planning .planning-container .timetable-container .programme {
+        margin-top: 20px;
+    }
+
+    .main-container-planning .form {
+        margin-top: 0px;
+        max-height: 330px;
+
+        h2 {
+            margin: 30px;
+        }
+
+    }
+
+}

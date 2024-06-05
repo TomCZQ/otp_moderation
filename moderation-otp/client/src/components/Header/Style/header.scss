@@ -9,6 +9,8 @@ header {
     border-bottom: 3px solid #ff3f09;
 
     .nav {
+
+
         button {
             display: none;
         }
@@ -61,8 +63,8 @@ header {
                 z-index: 20;
                 display: block;
                 position: absolute;
-                right: 30px;
-                top: 15px;
+                right: 5px;
+                top: 17px;
 
 
 
@@ -90,7 +92,7 @@ header {
             h1 {
                 width: 100%;
                 font-size: 32px;
-                font-weight: 500;
+                font-weight: 300;
                 font-family: 'Outfit';
                 padding-bottom: 10px;
             }

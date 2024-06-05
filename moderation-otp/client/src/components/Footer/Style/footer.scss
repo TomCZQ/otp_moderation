@@ -33,3 +33,20 @@ footer {
         margin-top: 100px;
     }
 }
+
+
+@media (max-width: 1150px) {
+    footer {
+        height: 60px;
+
+
+        .logo-mode-otp {
+            width: 60px;
+            height: 60px;
+        }
+
+        .copyrights {
+            margin-top: 50px;
+        }
+    }
+}

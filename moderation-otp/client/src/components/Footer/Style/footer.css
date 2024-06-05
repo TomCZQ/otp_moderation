@@ -25,4 +25,17 @@ footer .logo-mode-otp {
 }
 footer .copyrights {
   margin-top: 100px;
+}
+
+@media (max-width: 1150px) {
+  footer {
+    height: 60px;
+  }
+  footer .logo-mode-otp {
+    width: 60px;
+    height: 60px;
+  }
+  footer .copyrights {
+    margin-top: 50px;
+  }
 }/*# sourceMappingURL=footer.css.map */

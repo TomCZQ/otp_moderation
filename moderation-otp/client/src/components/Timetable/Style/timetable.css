@@ -115,4 +115,13 @@ td[role=presentation] {
 
 .fc .fc-resource-area .fc-col-header-cell {
   display: none;
+}
+
+@media (max-width: 1150px) {
+  .fc-media-screen {
+    color: white;
+    width: 98%;
+    height: auto;
+    max-height: 600px;
+  }
 }/*# sourceMappingURL=timetable.css.map */
