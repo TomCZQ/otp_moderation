@@ -18,20 +18,8 @@ export default function Footer() {
 
   return (
     <footer>
-      <Link
-        to="/"
-        className={
-          pathName === "/"
-            ? "active-link-header logo-header-link"
-            : "logo-header-link"
-        }
-      >
-        <img
-          src={logo}
-          className="logo-mode-otp"
-          alt="Logo modération OTP"
-        ></img>
-      </Link>
+      <img src={logo} className="logo-mode-otp" alt="Logo modération OTP"></img>
+
       <p className="copyrights">©Tom</p>
       <div className="back-to-top">
         <Link onClick={scrollToTop}>
