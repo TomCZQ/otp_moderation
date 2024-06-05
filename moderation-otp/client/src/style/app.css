@@ -6,4 +6,15 @@
 
 .full-height main {
   flex: 1;
+}
+
+main {
+  background-color: #cfcfcf;
+}
+
+@media (max-width: 1150px) {
+  h2 {
+    font-size: 20px;
+    padding-left: 10px;
+  }
 }/*# sourceMappingURL=app.css.map */

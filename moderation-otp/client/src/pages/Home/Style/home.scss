@@ -1,6 +1,5 @@
 main {
     width: 100%;
-    background-color: #cfcfcf;
     display: flex;
     justify-content: center;
 
@@ -58,9 +57,12 @@ h2 {
         .body {
             max-width: 80%;
             gap: 50px;
+            padding-top: 0;
 
             h2 {
                 margin-bottom: 0px;
+
+
             }
 
             img {

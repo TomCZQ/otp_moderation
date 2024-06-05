@@ -7,12 +7,12 @@ exports.loginUser = async (req, res) => {
   try {
     const user = await User.findOne({ username });
     if (!user) {
-      return res.status(401).send("Invalid credentials");
+      return res.status(401).json({ message: "Invalid credentials" });
     }
 
     const isMatch = await bcrypt.compare(password, user.password);
     if (!isMatch) {
-      return res.status(401).send("Invalid credentials");
+      return res.status(401).json({ message: "Invalid credentials" });
     }
 
     const token = jwt.sign(
@@ -23,7 +23,11 @@ exports.loginUser = async (req, res) => {
 
     res.json({ token });
   } catch (err) {
-    res.status(500).send("Login failed");
+    console.error("Login failed:", err);
+    res.status(500).json({
+      message:
+        "Une erreur est survenue lors de la connexion. Veuillez réessayer.",
+    });
   }
 };
 
@@ -31,10 +35,10 @@ exports.getUserDetails = async (req, res) => {
   try {
     const user = await User.findById(req.user.userId).select("-password");
     if (!user) {
-      return res.status(404).send("User not found");
+      return res.status(404).json({ message: "User not found" });
     }
     res.json(user);
   } catch (err) {
-    res.status(500).send("Failed to get user details");
+    res.status(500).json({ message: "Failed to get user details" });
   }
 };

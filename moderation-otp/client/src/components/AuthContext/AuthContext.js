@@ -6,7 +6,7 @@ const AuthContext = createContext();
 export const AuthProvider = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [isAdmin, setIsAdmin] = useState(false);
-  const [user, setUser] = useState(null); // Ajouter l'état pour l'utilisateur
+  const [user, setUser] = useState(null);
 
   useEffect(() => {
     const token = localStorage.getItem("token");
@@ -14,7 +14,7 @@ export const AuthProvider = ({ children }) => {
       setIsAuthenticated(true);
       const decodedToken = jwtDecode(token);
       setIsAdmin(decodedToken.isAdmin || false);
-      setUser(decodedToken); // Définir l'utilisateur
+      setUser(decodedToken);
     }
   }, []);
 
@@ -23,14 +23,14 @@ export const AuthProvider = ({ children }) => {
     setIsAuthenticated(true);
     const decodedToken = jwtDecode(token);
     setIsAdmin(decodedToken.isAdmin || false);
-    setUser(decodedToken); // Définir l'utilisateur
+    setUser(decodedToken);
   };
 
   const logout = () => {
     localStorage.removeItem("token");
     setIsAuthenticated(false);
     setIsAdmin(false);
-    setUser(null); // Réinitialiser l'utilisateur
+    setUser(null);
   };
 
   return (

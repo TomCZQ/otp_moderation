@@ -177,6 +177,9 @@
                 padding: 20px;
                 gap: 8px;
 
+                h3 {
+                    margin-top: 10px;
+                }
             }
         }
 
@@ -199,8 +202,13 @@
         width: 100%;
         gap: 30px;
         margin: 0;
+        margin-bottom: 20px;
         padding: 0;
         justify-content: center;
+    }
+
+    .fc-media-screen {
+        height: 600px;
     }
 
     .planning-container {
@@ -220,6 +228,7 @@
         padding: 0;
         padding-top: 30px;
         width: 100%;
+
         border: 1px solid #ff3f09;
 
         h2 {
@@ -229,6 +238,14 @@
 
     .main-container-planning .planning-container .timetable-container .programme {
         margin-top: 20px;
+        gap: 0px;
+        width: 80%;
+        justify-content: center;
+
+        p {
+            margin-top: 3px;
+
+        }
     }
 
     .main-container-planning .form {
@@ -241,4 +258,13 @@
 
     }
 
+}
+
+@media (max-width: 768px) {
+    .main-container-planning .planning-container .timetable-container .programme {
+        margin-top: 20px;
+        gap: 0px;
+        width: 80%;
+        justify-content: center;
+    }
 }

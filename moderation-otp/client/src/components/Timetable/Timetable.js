@@ -144,6 +144,7 @@ const Timetable = ({ day, matches, ligue }) => {
               nowIndicatorClassNames={"now"}
             />
             <div className="programme">
+              <h3>Programme du jour :</h3>
               <p>
                 {" "}
                 {`${firstMatchTime

@@ -31,7 +31,7 @@ const Members = () => {
   if (loading) return <Loader />;
   return (
     <div className="members-main">
-      <h1>Modos</h1>
+      <h2>Modos</h2>
       <div className="members">
         {members.map((member) => (
           <a key={member.userId} className="member" href="#">

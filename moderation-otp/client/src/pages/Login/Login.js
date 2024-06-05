@@ -29,7 +29,11 @@ const Login = () => {
       navigate("/home");
     } catch (err) {
       console.error("Login failed:", err);
-      setError(err.response.data.message);
+      const errorMessage =
+        err.response && err.response.data && err.response.data.message
+          ? err.response.data.message
+          : "Tu t'es trompé d'identifiant ou de mot de passe, c'est low.";
+      setError(errorMessage);
     }
   };
 
@@ -57,7 +61,7 @@ const Login = () => {
         {error && (
           <p className="error">
             {error}
-            <img src={kekl} alt="kekl"></img>
+            <img src={kekl} alt="kekl" />
           </p>
         )}
       </form>

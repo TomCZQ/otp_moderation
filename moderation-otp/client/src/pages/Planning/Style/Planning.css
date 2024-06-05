@@ -157,6 +157,9 @@
   padding: 20px;
   gap: 8px;
 }
+.main-container-planning .planning-container .timetable-container .programme h3 {
+  margin-top: 10px;
+}
 .main-container-planning .planning-container p {
   text-align: center;
   color: white;
@@ -172,8 +175,12 @@
     width: 100%;
     gap: 30px;
     margin: 0;
+    margin-bottom: 20px;
     padding: 0;
     justify-content: center;
+  }
+  .fc-media-screen {
+    height: 600px;
   }
   .planning-container {
     width: 100%;
@@ -196,6 +203,12 @@
   }
   .main-container-planning .planning-container .timetable-container .programme {
     margin-top: 20px;
+    gap: 0px;
+    width: 80%;
+    justify-content: center;
+  }
+  .main-container-planning .planning-container .timetable-container .programme p {
+    margin-top: 3px;
   }
   .main-container-planning .form {
     margin-top: 0px;
@@ -203,5 +216,13 @@
   }
   .main-container-planning .form h2 {
     margin: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .main-container-planning .planning-container .timetable-container .programme {
+    margin-top: 20px;
+    gap: 0px;
+    width: 80%;
+    justify-content: center;
   }
 }/*# sourceMappingURL=Planning.css.map */
