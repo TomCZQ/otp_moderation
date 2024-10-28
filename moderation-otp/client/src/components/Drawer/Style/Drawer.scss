@@ -1,0 +1,44 @@
+@media (max-width: 1150px) {
+    .navbar {
+        margin-top: 150px;
+        ;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .slider {
+            display: none;
+        }
+
+        a {
+            display: flex;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+
+            height: auto;
+            font-size: 15px;
+
+            .active-link-header {
+                color: var(--secondary-color);
+            }
+
+            svg {
+
+                transition: all 0.2s ease-out;
+                font-size: 20px;
+                height: 50px;
+                width: 30px;
+                color: #f3e9e5;
+                box-sizing: border-box;
+
+                &:hover {
+                    cursor: pointer;
+                    scale: 1.05;
+                    color: var(--secondary-color);
+                }
+            }
+
+        }
+    }
+}

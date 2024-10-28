@@ -1,3 +1,6 @@
+@import '../../../style/variables';
+
+
 .login-container {
     font-family: 'Montserrat';
     min-height: 720px;
@@ -12,10 +15,8 @@
 
     h2 {
         margin-top: 40px;
-        font-size: 25px;
-        color: #ff3f09;
-
-        text-underline-offset: 5px;
+        font-size: 20px;
+        color: var(--secondary-color);
     }
 
     .form-login {
@@ -23,17 +24,15 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        color: red;
+        color: var(--error-color);
         gap: 50px;
 
         label {
-            color: white;
-            background-color: #1b1b1b;
+            color: var(--primary-color);
             border-radius: 25px;
             padding: 2px;
             padding-left: 10px;
             padding-right: 10px;
-            border: #ff3f09 2px solid;
         }
 
         p {
@@ -41,7 +40,7 @@
             justify-content: center;
             gap: 10px;
             align-items: center;
-            border: red 3px solid;
+            border: var(--error-color) 3px solid;
             border-radius: 20px;
             font-weight: 700;
             padding: 5px;
@@ -58,14 +57,17 @@
         .input-password {
             display: flex;
             flex-direction: column;
-            color: #1b1b1b;
+            color: var(--primary-color);
             align-items: center;
             gap: 10px;
             font-size: 18px;
 
 
+
             input {
-                color: white;
+                color: var(--primary-color);
+                background-color: var(--background-color);
+
                 width: 250px;
                 height: 35px;
                 border-radius: 20px;
@@ -76,7 +78,6 @@
 
             input:focus {
                 outline: none;
-                /* Ajoute une ombre au lieu de la bordure */
             }
 
 
@@ -85,7 +86,7 @@
 
             input[type="text"],
             textarea {
-                background-color: white;
+                background-color: var(--background-color);
 
             }
 
@@ -93,7 +94,8 @@
             input[type="password"] {
 
                 font-family: 'Montserrat';
-                color: #1b1b1b;
+                color: var(--primary-color);
+                background-color: var(--background-color);
                 font-size: 18px;
                 border: none;
                 padding: 0;
@@ -104,17 +106,16 @@
 
         button {
 
-            background-color: #1b1b1b;
-            color: white;
+            color: var(--primary-color);
             width: 160px;
             height: 40px;
             font-size: 18px;
-            border: #ff3f09 1px solid;
             border-radius: 25px;
             transition: all 0.2s ease-out;
+            background-color: var(--background-color);
 
             &:hover {
-                background-color: #ff3f09;
+                background-color: var(--secondary-color);
             }
 
             &:active {

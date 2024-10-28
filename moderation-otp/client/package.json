@@ -38,6 +38,7 @@
     "react-router": "^6.23.0",
     "react-router-dom": "^6.23.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.80.3",
     "vercel": "^34.2.3",
     "web-vitals": "^2.1.4"
   },
@@ -68,7 +69,7 @@
     ]
   },
   "proxy": "https://moderation-otp.fr",
-  "homepage": "https://www.moderation-otp.fr",
+  "homepage": "http://localhost:3001",
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }

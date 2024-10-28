@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: row;
     font-size: 16px;
-    gap: 30px;
+    gap: 40px;
     width: 100%;
 
     .MuiButtonBase-root {
@@ -24,24 +24,24 @@
         position: absolute;
         top: 22px;
         left: 12px;
-        height: 2px;
+        height: 1px;
         width: 100px;
-        background-color: #ff3f09;
+        background-color: var(--secondary-color);
         transition: all 0.3s ease-out;
     }
 
     .moderateurs-link.active-link-header~.slider {
-        left: 246px;
+        left: 266px;
         width: 91px;
     }
 
     .planning-link.active-link-header~.slider {
-        left: 122px;
+        left: 132px;
         width: 114px;
     }
 
     .active-link-header {
-        color: #ff3f09;
+        color: var(--secondary-color);
         scale: 1.03;
     }
 
@@ -49,7 +49,7 @@
         box-sizing: border-box;
         color: white;
         text-decoration: none;
-        font-weight: 700;
+        font-weight: 300;
         text-align: center;
         height: 100%;
         transition: all 0.1s ease-out;
@@ -59,12 +59,12 @@
         margin-left: -16px;
 
         &:hover {
-            color: #ff3f09;
+            color: var(--secondary-color);
             scale: 1.03;
         }
 
         &:hover svg {
-            color: #ff3f09;
+            color: var(--secondary-color);
         }
     }
 }

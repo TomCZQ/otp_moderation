@@ -35,12 +35,12 @@
         height: 60px;
         border-radius: 50%;
         margin-bottom: 10px;
-        border: 2px solid #ff3f09;
+        border: 2px solid var(--secondary-color);
     }
 
     .user-nick {
         margin: 0;
-        color: #ff3f09;
+        color: var(--secondary-color);
         font-weight: 700;
         font-size: 20px;
         font-weight: bold;
@@ -55,17 +55,17 @@
     flex-direction: row;
     align-items: center;
     gap: 10px;
-    background-color: #1b1b1b;
+    background-color: var(--primary-color);
     color: white;
     width: 140px;
     height: 30px;
     font-size: 14px;
-    border: #ff3f09 1px solid;
+    border: var(--secondary-color) 1px solid;
     border-radius: 25px;
     transition: all 0.2s ease-out;
 
     &:hover {
-        background-color: #ff3f09;
+        background-color: var(--secondary-color);
     }
 
     &:active {
@@ -84,7 +84,7 @@
 
         .logout-button {
             margin-top: 0px;
-            border: 3px solid #ff3f09;
+            border: 3px solid var(--secondary-color);
         }
     }
 }

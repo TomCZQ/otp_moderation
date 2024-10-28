@@ -5,7 +5,7 @@ import Timetable from "../../components/Timetable/Timetable";
 import Loader from "../../components/Loader/Loader";
 import axios from "axios";
 import dayjs from "dayjs";
-import "./Style/Planning.css";
+import "./Style/Planning.scss";
 import prankex from "../../assets/prankex.gif";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
@@ -28,7 +28,7 @@ const Planning = () => {
   };
 
   useEffect(() => {
-    const apiURL = `https://www.moderation-otp.fr/api/matches`;
+    const apiURL = `http://localhost:3001/api/matches`;
 
     axios
       .get(apiURL, {

@@ -15,13 +15,12 @@
 
 
     h2 {
-        border: #ff3f09 solid 4px;
-        background-color: #1b1b1b;
-        border-radius: 40px;
-        font-weight: 500;
+        border-top: var(--secondary-color) solid 2px;
+        border-bottom: var(--secondary-color) solid 2px;
+        background-color: var(--primary-color);
+        font-weight: 300;
         width: 250px;
         padding: 10px;
-        box-shadow: 10px 10px 5px 0px rgba(141, 22, 6, .20);
         margin-top: -20px;
     }
 }
@@ -36,11 +35,17 @@
     gap: 50px;
     padding-top: 100px;
 
+    .separator {
+        height: 120px;
+        width: 2px;
+        background-color: var(--secondary-color);
+    }
+
     .league-container {
 
 
-        color: #ff3f09;
-        background-color: #1b1b1b;
+        color: var(--secondary-color);
+        background-color: var(--primary-color);
         font-size: 35px;
         align-items: center;
         justify-content: center;
@@ -48,12 +53,9 @@
         font-size: 25px;
 
         color: white;
-        border: #ff3f09 solid 5px;
-        border-radius: 40px;
         width: 150px;
         height: 100px;
         padding: 10px;
-        box-shadow: 10px 10px 5px 0px rgba(141, 22, 6, .2);
         cursor: pointer;
         transition: all 0.2s ease-in-out;
 
@@ -72,10 +74,9 @@
     }
 
     .league-container:hover {
-        color: #ff3f09;
+        color: var(--secondary-color);
         text-decoration: underline;
         text-underline-offset: 4px;
-        box-shadow: 4px 4px 5px 0px rgba(141, 22, 6, .2);
         transform: scale(1.05);
     }
 }

@@ -9,7 +9,7 @@
 }
 
 main {
-  background-color: #cfcfcf;
+  background-color: #1b1b1b;
 }
 
 @media (max-width: 1150px) {
@@ -17,4 +17,6 @@ main {
     font-size: 20px;
     padding-left: 10px;
   }
-}/*# sourceMappingURL=app.css.map */
+}
+
+/*# sourceMappingURL=app.css.map */

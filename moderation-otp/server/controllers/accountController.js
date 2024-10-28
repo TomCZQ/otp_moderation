@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const bcrypt = require("bcryptjs");
-const User = require("../models/User");
+const User = require("../models/user");
 const generatePassword = require("../utils/passwordGenerator");
 
 const ROLE_ID = "1043572037479829575"; // ID du rôle spécifique

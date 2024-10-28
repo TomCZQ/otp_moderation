@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "./Style/moderateurs.css";
+import "./Style/moderateurs.scss";
 import Loader from "../Loader/Loader.js";
 
 const Members = () => {
@@ -9,7 +9,7 @@ const Members = () => {
 
   useEffect(() => {
     axios
-      .get("https://www.moderation-otp.fr/api/users/members")
+      .get("http://localhost:3001/api/users/members")
       .then((response) => {
         const filteredMembers = response.data
           .filter((member) => member.roles.includes("1043572037479829575"))

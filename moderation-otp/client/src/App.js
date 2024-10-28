@@ -7,7 +7,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import Home from "./pages/Home/Home";
-import Moderateurs from "./pages/Moderateurs";
+import Moderateurs from "./pages/Moderateurs/Moderateurs";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Login from "./pages/Login/Login";

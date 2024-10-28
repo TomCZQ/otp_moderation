@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -7,5 +7,5 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #979BA1;
+    background-color: #f9f9f9;
 }

@@ -1,12 +1,12 @@
 footer {
-    background-color: #1b1b1b;
+    background-color: var(--primary-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
     padding-top: 10px;
-    height: 100px;
-    border-top: 3px solid #ff3f09;
+    height: 60px;
+    border-top: 2px solid var(--secondary-color);
 
 
     svg {
@@ -16,7 +16,7 @@ footer {
         color: white;
 
         &:hover {
-            color: #ff3f09;
+            color: var(--secondary-color);
         }
 
         &:active {
@@ -26,7 +26,7 @@ footer {
     }
 
     .logo-mode-otp {
-        width: 100px;
+        width: 60px;
     }
 
     .copyrights {

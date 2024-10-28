@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import Navbar from "../../components/Navbar-header/Navbar-header";
 import User from "../UserProfile/UserProfile";
-import "../Drawer/Drawer.css";
+import "../Drawer/Style/Drawer.scss";
 
 export default function TemporaryDrawer() {
   const [open, setOpen] = React.useState(false);
@@ -27,7 +27,6 @@ export default function TemporaryDrawer() {
     }
   }, [open]);
 
-  // Use the onClose prop of Drawer to ensure the body styles are reset
   const handleDrawerClose = () => {
     setOpen(false);
     document.body.style.paddingRight = "";
@@ -38,7 +37,7 @@ export default function TemporaryDrawer() {
     <Box
       sx={{
         width: 200,
-        backgroundColor: "#1b1b1b",
+        backgroundColor: "var(--primary-color)",
         color: "white",
         height: "100%",
       }}

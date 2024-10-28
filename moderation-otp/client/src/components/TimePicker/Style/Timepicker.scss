@@ -1,10 +1,10 @@
 /* customStyles.css */
 .ant-picker-range {
-    border-color: #ff3f09 !important;
+    border-color: var(--secondary-color) !important;
 }
 
 .ant-picker-active-bar {
-    background: #ff3f09 !important;
+    background: var(--secondary-color) !important;
 }
 
 .form h2 {

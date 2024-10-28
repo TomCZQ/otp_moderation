@@ -25,17 +25,17 @@
         }
 
         .fc-button-primary {
-            background-color: #ff3f09;
+            background-color: var(--secondary-color);
             color: #fff;
             display: none;
 
             &:hover {
-                background-color: #ff3f09;
+                background-color: var(--secondary-color);
             }
         }
 
         .fc-button-active {
-            background-color: #ff3f09;
+            background-color: var(--secondary-color);
         }
     }
 
@@ -44,7 +44,7 @@
     }
 
     .fc-event {
-        background-color: #ff3f09;
+        background-color: var(--secondary-color);
         color: #fff;
         padding: 2px 5px;
         border-radius: 5px;
@@ -126,7 +126,7 @@ td[role="presentation"] {
 
 
 .fc-toolbar-title {
-    color: #ff3f09;
+    color: var(--secondary-color);
 }
 
 .fc-scroller {
@@ -141,7 +141,6 @@ td[role="presentation"] {
 .fc-col-header-cell,
 .fc-resource {
     width: 50px !important;
-    /* Définissez la largeur souhaitée */
     min-width: 50px !important;
     max-width: 50px !important;
 }

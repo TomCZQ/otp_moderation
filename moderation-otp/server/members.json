@@ -1,6 +1,7 @@
 [
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-03-18T18:16:42.754000+00:00",
@@ -30,6 +31,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-11-19T18:32:15.515000+00:00",
@@ -43,7 +45,7 @@
     "user": {
       "id": "113783587395862537",
       "username": "imlexa",
-      "avatar": "c73945242edf698f97237b4b1e808bc3",
+      "avatar": "1e6b5446be9272bb90ac2a27fe54d57a",
       "discriminator": "0",
       "public_flags": 64,
       "flags": 64,
@@ -59,6 +61,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-11-19T18:32:47.756000+00:00",
@@ -69,10 +72,9 @@
       "1048626805726261248",
       "1048629296115220580",
       "1039694305943638117",
-      "1048629157183115334",
       "1043572037479829575",
-      "1048628895160746095",
       "1048625021851009074",
+      "1048629246077177946",
       "1048628682434039838",
       "1048629096659300415"
     ],
@@ -87,7 +89,11 @@
       "banner": null,
       "accent_color": null,
       "global_name": "Maveur",
-      "avatar_decoration_data": null,
+      "avatar_decoration_data": {
+        "asset": "a_10b9f886b513b77ccdd67c8784f1a496",
+        "sku_id": "1144059132517826601",
+        "expires_at": null
+      },
       "banner_color": null,
       "clan": null
     },
@@ -96,6 +102,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-11-05T16:05:05.109000+00:00",
@@ -126,6 +133,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-01-11T18:02:47.622000+00:00",
@@ -145,7 +153,7 @@
       "flags": 0,
       "banner": null,
       "accent_color": null,
-      "global_name": null,
+      "global_name": "Koyuk",
       "avatar_decoration_data": null,
       "banner_color": null,
       "clan": null
@@ -155,6 +163,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-01-09T13:58:02.797000+00:00",
@@ -174,7 +183,7 @@
       "flags": 0,
       "banner": null,
       "accent_color": null,
-      "global_name": "OTP | Antoine Rabhi",
+      "global_name": "OTP FR | Antoine Rabhi",
       "avatar_decoration_data": null,
       "banner_color": null,
       "clan": null
@@ -184,6 +193,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-01-09T14:18:16.277000+00:00",
@@ -213,6 +223,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-11-20T15:06:22.057000+00:00",
@@ -227,17 +238,14 @@
     "user": {
       "id": "182927934825299968",
       "username": "archibaldwirslayd",
-      "avatar": "7df9767a63ceafdc0c4b1c7503dde6aa",
+      "avatar": "fd5e0ac347c32ea0fde2e582b97c065f",
       "discriminator": "0",
       "public_flags": 768,
       "flags": 768,
       "banner": null,
       "accent_color": null,
       "global_name": "Archibald Wirslayd",
-      "avatar_decoration_data": {
-        "asset": "a_50b440810b1bbd89f6284f36d40ad0af",
-        "sku_id": "1202074101343322184"
-      },
+      "avatar_decoration_data": null,
       "banner_color": null,
       "clan": null
     },
@@ -246,6 +254,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-11-19T18:15:19.270000+00:00",
@@ -275,6 +284,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-09-25T12:07:34.551000+00:00",
@@ -307,6 +317,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-11-19T23:15:00.518000+00:00",
@@ -315,10 +326,11 @@
     "premium_since": null,
     "roles": [
       "1100494904305647777",
+      "1205583631947399169",
       "1048629296115220580",
-      "1048629157183115334",
       "1043572037479829575",
       "1048628895160746095",
+      "1048629246077177946",
       "1053006847809966142",
       "1048629096659300415"
     ],
@@ -342,10 +354,11 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-11-19T18:20:42.807000+00:00",
-    "nick": "[Ox] Tontonmalax",
+    "nick": "[ZER] Tontonmalax",
     "pending": false,
     "premium_since": null,
     "roles": [
@@ -357,7 +370,7 @@
     "user": {
       "id": "217369021295755265",
       "username": "vamalax",
-      "avatar": "8257bdc38afa4604ba625ee7f66fc652",
+      "avatar": "47fe90a3c2c95657ee7058100dd8095d",
       "discriminator": "0",
       "public_flags": 0,
       "flags": 0,
@@ -373,6 +386,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-01-09T14:18:08.020000+00:00",
@@ -402,6 +416,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-11-19T18:15:37.167000+00:00",
@@ -414,10 +429,10 @@
       "1205583631947399169",
       "1048629296115220580",
       "1039694305943638117",
-      "1048629157183115334",
       "1043572037479829575",
       "1048625021851009074",
       "1048629004711776306",
+      "1048629246077177946",
       "1048629096659300415"
     ],
     "unusual_dm_activity_until": null,
@@ -440,6 +455,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-11-21T17:38:56.300000+00:00",
@@ -453,7 +469,7 @@
     "user": {
       "id": "224559533303922688",
       "username": "fourb0",
-      "avatar": "dc0bd6eca51966666853e83d5eecac14",
+      "avatar": "ba359e390212801f32a0c0a5fb34c0a6",
       "discriminator": "0",
       "public_flags": 0,
       "flags": 0,
@@ -469,6 +485,38 @@
   },
   {
     "avatar": null,
+    "banner": null,
+    "communication_disabled_until": null,
+    "flags": 0,
+    "joined_at": "2024-09-30T17:59:11.193000+00:00",
+    "nick": "[GEN. G2] Me5rine_",
+    "pending": false,
+    "premium_since": null,
+    "roles": [
+      "1048629246077177946",
+      "1290365439645585428"
+    ],
+    "unusual_dm_activity_until": null,
+    "user": {
+      "id": "226343361076920322",
+      "username": "me5rine_",
+      "avatar": "75179cf509f55a92f3d65b62c5adc919",
+      "discriminator": "0",
+      "public_flags": 0,
+      "flags": 0,
+      "banner": null,
+      "accent_color": null,
+      "global_name": "Me5rine_",
+      "avatar_decoration_data": null,
+      "banner_color": null,
+      "clan": null
+    },
+    "mute": false,
+    "deaf": false
+  },
+  {
+    "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-01-09T13:59:37.979000+00:00",
@@ -497,7 +545,8 @@
     "deaf": false
   },
   {
-    "avatar": "a_894dff043f45dfaef2509e8a5129df08",
+    "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-05-08T17:03:54.658000+00:00",
@@ -528,6 +577,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-03-06T17:20:01.614000+00:00",
@@ -558,6 +608,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-11-19T18:15:16.569000+00:00",
@@ -568,11 +619,11 @@
       "1048626805726261248",
       "1100494904305647777",
       "1039694305943638117",
-      "1048629157183115334",
       "1043572037479829575",
       "1048628895160746095",
       "1048625021851009074",
-      "1048629004711776306"
+      "1048629004711776306",
+      "1048629246077177946"
     ],
     "unusual_dm_activity_until": null,
     "user": {
@@ -594,6 +645,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-11-19T18:17:49.777000+00:00",
@@ -602,7 +654,9 @@
     "premium_since": null,
     "roles": [
       "1100494904305647777",
+      "1048629296115220580",
       "1043572037479829575",
+      "1048629246077177946",
       "1048628682434039838",
       "1048629096659300415"
     ],
@@ -610,13 +664,13 @@
     "user": {
       "id": "244473978033405953",
       "username": "emma_ptitpiaf",
-      "avatar": "a_c13219a643cd4caeb4b328c09a29f4a5",
+      "avatar": "a_2a9657331ced54761ba073412be8de1f",
       "discriminator": "0",
       "public_flags": 0,
       "flags": 0,
       "banner": null,
       "accent_color": null,
-      "global_name": "C6760H10447N1743O2010S32",
+      "global_name": "便便布丁",
       "avatar_decoration_data": null,
       "banner_color": null,
       "clan": null
@@ -626,6 +680,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-04-06T10:29:13.819000+00:00",
@@ -655,6 +710,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-12-10T20:45:17.867000+00:00",
@@ -684,6 +740,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-01-04T18:22:52.360000+00:00",
@@ -714,6 +771,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-01-09T14:41:10.780000+00:00",
@@ -743,6 +801,38 @@
   },
   {
     "avatar": null,
+    "banner": null,
+    "communication_disabled_until": null,
+    "flags": 0,
+    "joined_at": "2024-09-30T17:30:05.320000+00:00",
+    "nick": null,
+    "pending": false,
+    "premium_since": null,
+    "roles": [
+      "1048629246077177946",
+      "1290365439645585428"
+    ],
+    "unusual_dm_activity_until": null,
+    "user": {
+      "id": "275668314246610954",
+      "username": "pyroskunk",
+      "avatar": "1c5ea5d56e6e92526f0c18f4dc334e1f",
+      "discriminator": "0",
+      "public_flags": 0,
+      "flags": 0,
+      "banner": null,
+      "accent_color": null,
+      "global_name": "PyroSkunk",
+      "avatar_decoration_data": null,
+      "banner_color": null,
+      "clan": null
+    },
+    "mute": false,
+    "deaf": false
+  },
+  {
+    "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-05-02T08:08:00.495000+00:00",
@@ -772,35 +862,7 @@
   },
   {
     "avatar": null,
-    "communication_disabled_until": null,
-    "flags": 0,
-    "joined_at": "2023-12-07T14:46:30.641000+00:00",
-    "nick": null,
-    "pending": false,
-    "premium_since": null,
-    "roles": [
-      "1048644561397878854"
-    ],
-    "unusual_dm_activity_until": null,
-    "user": {
-      "id": "286258968316215299",
-      "username": "fabienbacquet",
-      "avatar": "b3e68052be3f2a50d58d1f4bad67eea8",
-      "discriminator": "0",
-      "public_flags": 0,
-      "flags": 0,
-      "banner": null,
-      "accent_color": null,
-      "global_name": "Fabien",
-      "avatar_decoration_data": null,
-      "banner_color": null,
-      "clan": null
-    },
-    "mute": false,
-    "deaf": false
-  },
-  {
-    "avatar": null,
+    "banner": null,
     "communication_disabled_until": "2023-07-24T19:34:39.758000+00:00",
     "flags": 0,
     "joined_at": "2023-07-13T08:57:10.237000+00:00",
@@ -814,7 +876,7 @@
     "user": {
       "id": "287951684074995714",
       "username": "fingh1n",
-      "avatar": "2702425aec96b257c3f88c1fcd0e7de1",
+      "avatar": "a35cdb53e192c12c656f56b46b36fcd8",
       "discriminator": "0",
       "public_flags": 0,
       "flags": 0,
@@ -830,6 +892,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2024-04-29T10:55:06.303000+00:00",
@@ -838,7 +901,7 @@
     "premium_since": null,
     "roles": [
       "1048629004711776306",
-      "1048629157183115334",
+      "1048629246077177946",
       "1043572037479829575"
     ],
     "unusual_dm_activity_until": null,
@@ -861,6 +924,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-01-09T15:49:02.834000+00:00",
@@ -890,6 +954,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-11-19T18:15:24.366000+00:00",
@@ -898,9 +963,9 @@
     "premium_since": null,
     "roles": [
       "1048629296115220580",
-      "1048629157183115334",
       "1043572037479829575",
       "1048628895160746095",
+      "1048629246077177946",
       "1048629096659300415"
     ],
     "unusual_dm_activity_until": null,
@@ -923,6 +988,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-09-05T16:52:06.269000+00:00",
@@ -952,6 +1018,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-11-20T17:52:47.565000+00:00",
@@ -960,11 +1027,12 @@
     "premium_since": "2024-01-27T20:51:13.841000+00:00",
     "roles": [
       "1100494904305647777",
+      "1205583631947399169",
       "1048629296115220580",
       "1044344146556629062",
-      "1048629157183115334",
       "1043572037479829575",
       "1048629004711776306",
+      "1048629246077177946",
       "1048629096659300415"
     ],
     "unusual_dm_activity_until": null,
@@ -987,6 +1055,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-02-09T12:30:09.562000+00:00",
@@ -1016,6 +1085,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-11-22T00:05:56.422000+00:00",
@@ -1045,6 +1115,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-08-15T16:12:06.679000+00:00",
@@ -1052,8 +1123,11 @@
     "pending": false,
     "premium_since": null,
     "roles": [
-      "1048628682434039838",
-      "1043572037479829575"
+      "1100494904305647777",
+      "1205583631947399169",
+      "1043572037479829575",
+      "1048629246077177946",
+      "1048628682434039838"
     ],
     "unusual_dm_activity_until": null,
     "user": {
@@ -1075,6 +1149,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-01-09T14:53:01.016000+00:00",
@@ -1104,6 +1179,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-11-19T18:16:17.685000+00:00",
@@ -1113,6 +1189,7 @@
     "roles": [
       "1048626805726261248",
       "1100494904305647777",
+      "1048629296115220580",
       "1043572037479829575",
       "1048628895160746095",
       "1048625021851009074",
@@ -1138,6 +1215,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-01-18T11:29:59.898000+00:00",
@@ -1168,6 +1246,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-11-19T18:26:43.002000+00:00",
@@ -1177,9 +1256,9 @@
     "roles": [
       "1100494904305647777",
       "1048629296115220580",
-      "1048629157183115334",
       "1043572037479829575",
       "1048628895160746095",
+      "1048629246077177946",
       "1048628682434039838"
     ],
     "unusual_dm_activity_until": null,
@@ -1202,6 +1281,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-11-19T19:30:16.895000+00:00",
@@ -1231,35 +1311,7 @@
   },
   {
     "avatar": null,
-    "communication_disabled_until": null,
-    "flags": 0,
-    "joined_at": "2023-01-10T14:14:44.176000+00:00",
-    "nick": null,
-    "pending": false,
-    "premium_since": null,
-    "roles": [
-      "1048644561397878854"
-    ],
-    "unusual_dm_activity_until": null,
-    "user": {
-      "id": "380027878399672320",
-      "username": "sodjo",
-      "avatar": "71ea531bacbe3ec2d5561176b1850cf5",
-      "discriminator": "0",
-      "public_flags": 0,
-      "flags": 0,
-      "banner": null,
-      "accent_color": null,
-      "global_name": "Mathieu soDjo Fonseca",
-      "avatar_decoration_data": null,
-      "banner_color": null,
-      "clan": null
-    },
-    "mute": false,
-    "deaf": false
-  },
-  {
-    "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-12-01T17:00:04.503000+00:00",
@@ -1289,6 +1341,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2024-04-29T15:45:22.560000+00:00",
@@ -1302,13 +1355,13 @@
     "user": {
       "id": "389072618260529154",
       "username": "valentingrin",
-      "avatar": "30ac3fa38fa27855a694cd5920eda917",
+      "avatar": "425b31991fd6bfb94941dcba44a0ec0e",
       "discriminator": "0",
       "public_flags": 0,
       "flags": 0,
       "banner": null,
       "accent_color": null,
-      "global_name": "Valentin",
+      "global_name": "stéroïde anabolisant",
       "avatar_decoration_data": null,
       "banner_color": null,
       "clan": null
@@ -1318,6 +1371,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-05-01T18:09:14.378000+00:00",
@@ -1332,7 +1386,7 @@
     "user": {
       "id": "399171878217973760",
       "username": "simplyblakie",
-      "avatar": "8af5cead67bc59124b2f9279a77630b6",
+      "avatar": "fe919dd050669257796bb09135683176",
       "discriminator": "0",
       "public_flags": 64,
       "flags": 64,
@@ -1341,7 +1395,8 @@
       "global_name": "Blakie",
       "avatar_decoration_data": {
         "asset": "a_c3cffc19e9784f7d0b005eecdf1b566e",
-        "sku_id": "1212569433839636530"
+        "sku_id": "1212569433839636530",
+        "expires_at": null
       },
       "banner_color": null,
       "clan": null
@@ -1351,31 +1406,35 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-01-18T11:18:33.429000+00:00",
-    "nick": "[GPerdu]  Romane",
+    "nick": "[G2]  Romane",
     "pending": false,
     "premium_since": null,
     "roles": [
       "1100494904305647777",
-      "1048629157183115334",
-      "1043572037479829575",
       "1048629004711776306",
-      "1048628682434039838"
+      "1048628682434039838",
+      "1043572037479829575"
     ],
     "unusual_dm_activity_until": null,
     "user": {
       "id": "401506143655952384",
       "username": "roomane",
-      "avatar": "4b2d0b0c76a4d0f1674922f308b3baea",
+      "avatar": "16459288a931168aa1fe702b172a1209",
       "discriminator": "0",
       "public_flags": 64,
       "flags": 64,
       "banner": null,
       "accent_color": null,
       "global_name": "R🤚🏼",
-      "avatar_decoration_data": null,
+      "avatar_decoration_data": {
+        "asset": "a_c3cffc19e9784f7d0b005eecdf1b566e",
+        "sku_id": "1212569433839636530",
+        "expires_at": null
+      },
       "banner_color": null,
       "clan": null
     },
@@ -1384,6 +1443,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-11-19T18:48:32.495000+00:00",
@@ -1413,6 +1473,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-10-12T07:07:09.745000+00:00",
@@ -1442,10 +1503,11 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-11-19T18:16:40.477000+00:00",
-    "nick": null,
+    "nick": "max",
     "pending": false,
     "premium_since": null,
     "roles": [
@@ -1456,13 +1518,13 @@
     "user": {
       "id": "438091026817744916",
       "username": "lmaxus",
-      "avatar": "db34990462fdf56f2520fb384e29a2f8",
+      "avatar": "5865d12830c2d9574791976d795b3a7f",
       "discriminator": "0",
       "public_flags": 64,
       "flags": 64,
       "banner": null,
       "accent_color": null,
-      "global_name": "max",
+      "global_name": "max / Ash",
       "avatar_decoration_data": null,
       "banner_color": null,
       "clan": null
@@ -1472,6 +1534,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-10-08T12:10:23.657000+00:00",
@@ -1480,23 +1543,27 @@
     "premium_since": null,
     "roles": [
       "1205583631947399169",
-      "1048629157183115334",
       "1043572037479829575",
       "1048629004711776306",
+      "1048629246077177946",
       "1048629096659300415"
     ],
     "unusual_dm_activity_until": null,
     "user": {
       "id": "447807062999826433",
       "username": "pihisen",
-      "avatar": "a_7ab1c97ba39a0d0388e6377f157ea811",
+      "avatar": "791c5470bce25c30c0953af6c0fc5470",
       "discriminator": "0",
       "public_flags": 64,
       "flags": 64,
       "banner": null,
       "accent_color": null,
       "global_name": "Pihisen",
-      "avatar_decoration_data": null,
+      "avatar_decoration_data": {
+        "asset": "a_3c97a2d37f433a7913a1c7b7a735d000",
+        "sku_id": "1144308439720394944",
+        "expires_at": null
+      },
       "banner_color": null,
       "clan": null
     },
@@ -1505,16 +1572,17 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2024-02-14T11:25:38.955000+00:00",
-    "nick": "Otniiiii",
+    "nick": "Otni",
     "pending": false,
     "premium_since": null,
     "roles": [
-      "1043572037479829575",
+      "1048629246077177946",
       "1048629296115220580",
-      "1048629157183115334",
+      "1043572037479829575",
       "1048628895160746095"
     ],
     "unusual_dm_activity_until": null,
@@ -1537,6 +1605,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2024-04-29T16:59:43.432000+00:00",
@@ -1566,6 +1635,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-01-18T11:41:02.446000+00:00",
@@ -1588,7 +1658,8 @@
       "global_name": "Mehdi",
       "avatar_decoration_data": {
         "asset": "a_a47890109a231f72dae7b17b27164676",
-        "sku_id": "1232070870093008937"
+        "sku_id": "1232070870093008937",
+        "expires_at": null
       },
       "banner_color": null,
       "clan": null
@@ -1598,6 +1669,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-01-09T17:13:12.233000+00:00",
@@ -1627,6 +1699,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-11-09T01:09:55.946000+00:00",
@@ -1658,6 +1731,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-11-19T18:46:51.903000+00:00",
@@ -1669,10 +1743,10 @@
       "1100494904305647777",
       "1048629296115220580",
       "1039694305943638117",
-      "1048629157183115334",
       "1043572037479829575",
       "1048628895160746095",
       "1048625021851009074",
+      "1048629246077177946",
       "1048628682434039838"
     ],
     "unusual_dm_activity_until": null,
@@ -1695,6 +1769,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2022-11-20T02:11:57.034000+00:00",
@@ -1726,31 +1801,30 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2024-02-14T09:48:56.814000+00:00",
-    "nick": "[Oner] kuromiaou",
+    "nick": "[Oner] kuro <koureau> miaou",
     "pending": false,
     "premium_since": null,
     "roles": [
-      "1048629296115220580",
-      "1048629157183115334",
-      "1043572037479829575",
-      "1048628895160746095",
       "1048629004711776306",
-      "1048628682434039838"
+      "1048629246077177946",
+      "1043572037479829575",
+      "1048628895160746095"
     ],
     "unusual_dm_activity_until": null,
     "user": {
       "id": "727975866658979901",
       "username": "kuromiaou",
-      "avatar": "a_e9fda8de3be671f169129415bbe70ee4",
+      "avatar": "c139c69c7ef0213cb0ebf3ba03427846",
       "discriminator": "0",
       "public_flags": 256,
       "flags": 256,
       "banner": null,
       "accent_color": null,
-      "global_name": "kuromiaouu",
+      "global_name": "ONER DESCENDANT",
       "avatar_decoration_data": null,
       "banner_color": null,
       "clan": null
@@ -1760,6 +1834,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-06-21T17:50:13.216000+00:00",
@@ -1789,6 +1864,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2024-02-14T10:04:13.479000+00:00",
@@ -1796,11 +1872,12 @@
     "pending": false,
     "premium_since": null,
     "roles": [
+      "1100494904305647777",
       "1205583631947399169",
       "1048629296115220580",
-      "1048629157183115334",
       "1043572037479829575",
-      "1048628895160746095"
+      "1048628895160746095",
+      "1048629246077177946"
     ],
     "unusual_dm_activity_until": null,
     "user": {
@@ -1822,6 +1899,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-01-18T11:25:21.716000+00:00",
@@ -1830,9 +1908,9 @@
     "premium_since": null,
     "roles": [
       "1048629004711776306",
-      "1043572037479829575",
-      "1048629157183115334",
-      "1048628682434039838"
+      "1048629246077177946",
+      "1048628682434039838",
+      "1043572037479829575"
     ],
     "unusual_dm_activity_until": null,
     "user": {
@@ -1854,6 +1932,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-03-05T14:22:57.033000+00:00",
@@ -1884,6 +1963,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2023-10-08T12:20:31.145000+00:00",
@@ -1913,6 +1993,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2024-04-29T11:30:11.842000+00:00",
@@ -1920,10 +2001,10 @@
     "pending": false,
     "premium_since": null,
     "roles": [
+      "1048629004711776306",
+      "1048629246077177946",
       "1048628682434039838",
-      "1043572037479829575",
-      "1048629157183115334",
-      "1048628895160746095"
+      "1043572037479829575"
     ],
     "unusual_dm_activity_until": null,
     "user": {
@@ -1945,6 +2026,7 @@
   },
   {
     "avatar": null,
+    "banner": null,
     "communication_disabled_until": null,
     "flags": 0,
     "joined_at": "2024-05-08T15:06:31.994000+00:00",

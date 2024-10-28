@@ -1,0 +1,28 @@
+[
+  {
+    "date": "2024-12-30T23:00:00.000Z",
+    "bo": 1,
+    "title": "QUALIFIED",
+    "teams": [
+      " MAD Lions KOI",
+      "GAM Esports"
+    ],
+    "accronyms": [
+      "MDK",
+      "GAM"
+    ]
+  },
+  {
+    "date": "2024-12-30T23:00:00.000Z",
+    "bo": 1,
+    "title": "QUALIFIED",
+    "teams": [
+      "paiN Gaming",
+      "PSG Talon"
+    ],
+    "accronyms": [
+      "PNG",
+      "PSG"
+    ]
+  }
+]

@@ -1,3 +1,5 @@
+@import '../../../style/variables';
+
 .full-height {
     min-height: 100vh;
     display: flex;
@@ -10,11 +12,10 @@
 }
 
 main {
-    background-color: #cfcfcf;
+    background-color: #f9f9f9;
 }
 
-//#1f1f1f
-.dark {}
+
 
 @media (max-width: 1150px) {
     h2 {

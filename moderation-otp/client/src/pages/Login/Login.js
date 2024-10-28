@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../components/AuthContext/AuthContext";
-import "../Login/Style/login.css";
+import "../Login/Style/login.scss";
 import kekl from "../../assets/KEKL.png";
 
 const Login = () => {
@@ -22,8 +22,11 @@ const Login = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "https://moderation-otp.fr/api/users/login",
-        { username, password }
+        `${process.env.REACT_APP_DEV_URL}/api/users/login`,
+        {
+          username,
+          password,
+        }
       );
       login(response.data.token);
       navigate("/home");

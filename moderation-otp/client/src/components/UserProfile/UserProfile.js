@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useAuth } from "../AuthContext/AuthContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRightFromBracket } from "@fortawesome/free-solid-svg-icons";
-import "./Style/UserProfile.css";
+import "./Style/UserProfile.scss";
 
 const UserProfile = () => {
   const [user, setUser] = useState(null);
@@ -20,14 +20,11 @@ const UserProfile = () => {
           return;
         }
 
-        const response = await axios.get(
-          "https://www.moderation-otp.fr/api/users/me",
-          {
-            headers: {
-              Authorization: `Bearer ${token}`,
-            },
-          }
-        );
+        const response = await axios.get("http://localhost:3001/api/users/me", {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        });
 
         setUser(response.data);
       } catch (err) {

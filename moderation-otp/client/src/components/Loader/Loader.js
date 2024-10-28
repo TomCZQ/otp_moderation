@@ -1,4 +1,4 @@
-import "./Style/loader.css";
+import "./Style/loader.scss";
 import logo from "../../assets/logo_mode_otp.png";
 import React from "react";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Style/home.css";
+import "./Style/home.scss";
 import bixente from "../../assets/bixente_asset.jpg";
 
 const Home = () => {

@@ -12,7 +12,7 @@
 .dropdown-button {
   position: relative;
   font-size: 24px;
-  background-color: #ff3f09;
+  background-color: var(--secondary-color);
   text-align: left;
   height: 52px;
   align-items: center;
@@ -47,19 +47,19 @@
 .open.dropdown .dropdown-content {
 
   box-shadow:
-    -1px -1px 1px #ff3f09,
-    1px -1px 1px #ff3f09,
-    -1px 1px 1px #ff3f09,
-    1px 1px 1px #ff3f09;
+    -1px -1px 1px var(--secondary-color),
+    1px -1px 1px var(--secondary-color),
+    -1px 1px 1px var(--secondary-color),
+    1px 1px 1px var(--secondary-color);
 }
 
 .open .dropdown-button {
 
   box-shadow:
-    -1px -1px 1px #ff3f09,
-    1px -1px 1px #ff3f09,
-    -1px 1px 1px #ff3f09,
-    1px 1px 1px #ff3f09;
+    -1px -1px 1px var(--secondary-color),
+    1px -1px 1px var(--secondary-color),
+    -1px 1px 1px var(--secondary-color),
+    1px 1px 1px var(--secondary-color);
 }
 
 .dropdown-content {
@@ -90,7 +90,7 @@
   margin: 10px;
 
   .navbar {
-    color: #1b1b1b;
+    color: var(--primary-color);
   }
 }
 

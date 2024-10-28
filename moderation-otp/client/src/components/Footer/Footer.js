@@ -1,5 +1,5 @@
 import React from "react";
-import "../Footer/Style/footer.css";
+import "../Footer/Style/footer.scss";
 import logo from "../../assets/logo_mode_otp.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Modal from "react-modal";
-import "../ConfirmationModale/ConfirmationModale.css";
+import "../ConfirmationModale/Style/ConfirmationModale.scss";
 Modal.setAppElement("#root");
 
 const ConfirmationModal = ({

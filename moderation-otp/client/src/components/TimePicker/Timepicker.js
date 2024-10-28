@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "../TimePicker/Style/Timepicker.css";
+import "../TimePicker/Style/Timepicker.scss";
 import { useAuth } from "../AuthContext/AuthContext";
 import dayjs from "dayjs";
 import { useNavigate } from "react-router-dom";
@@ -20,14 +20,11 @@ const Timepicker = ({ ligue, fetchEvents, day }) => {
         return;
       }
 
-      const response = await axios.get(
-        "https://www.moderation-otp.fr/api/users/me",
-        {
-          headers: {
-            Authorization: `Bearer ${token}`,
-          },
-        }
-      );
+      const response = await axios.get("http://localhost:3001/api/users/me", {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      });
 
       setUser(response.data);
     } catch (err) {
@@ -71,11 +68,11 @@ const Timepicker = ({ ligue, fetchEvents, day }) => {
     const title = user.nick || user.username;
     const color = user.roles.includes("1048626805726261248")
       ? "#f37957"
-      : "#ff3f09";
+      : "var(--secondary-color)";
 
     try {
       await axios.post(
-        "https://www.moderation-otp.fr/api/dispos",
+        "http://localhost:3001/api/dispos",
         {
           id,
           resourceId,
