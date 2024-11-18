@@ -1,0 +1,85 @@
+/* Style de base de la navbar */
+
+
+.navbar {
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    gap: 40px;
+    width: 100%;
+
+    .MuiButtonBase-root {
+        display: none;
+    }
+
+
+    .active-link-header {
+        color: white;
+    }
+
+    .slider {
+        position: absolute;
+        top: 22px;
+        left: 12px;
+        height: 1px;
+        width: 100px;
+        background-color: var(--secondary-color);
+        transition: all 0.3s ease-out;
+    }
+
+    .moderateurs-link.active-link-header~.slider {
+        left: 266px;
+        width: 91px;
+    }
+
+    .planning-link.active-link-header~.slider {
+        left: 132px;
+        width: 114px;
+    }
+
+    .active-link-header {
+        color: var(--secondary-color);
+        scale: 1.03;
+    }
+
+    a {
+        box-sizing: border-box;
+        color: white;
+        text-decoration: none;
+        font-weight: 300;
+        text-align: center;
+        height: 100%;
+        transition: all 0.1s ease-out;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        margin-left: -16px;
+
+        &:hover {
+            color: var(--secondary-color);
+            scale: 1.03;
+        }
+
+        &:hover svg {
+            color: var(--secondary-color);
+        }
+    }
+}
+
+/* Media query pour les écrans de moins de 1150px de largeur */
+@media (max-width: 1150px) {
+    .navbar-desktop {
+        display: none;
+    }
+
+    .navbar {
+        a {
+            margin-left: -10;
+            align-items: center;
+        }
+
+    }
+}

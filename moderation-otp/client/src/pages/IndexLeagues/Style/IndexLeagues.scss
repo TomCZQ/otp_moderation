@@ -1,0 +1,103 @@
+* {
+    font-family: 'Montserrat';
+}
+
+.container {
+    background-color: transparent;
+    margin: 0;
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    h2 {
+        border-top: var(--secondary-color) solid 2px;
+        border-bottom: var(--secondary-color) solid 2px;
+        background-color: var(--primary-color);
+        font-weight: 300;
+        width: 250px;
+        padding: 10px;
+        margin-top: -20px;
+    }
+}
+
+.link-container {
+
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 100px;
+
+    .separator {
+        height: 120px;
+        width: 2px;
+        background-color: var(--secondary-color);
+    }
+
+    .league-container {
+
+
+        color: var(--secondary-color);
+        background-color: var(--primary-color);
+        font-size: 35px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 25px;
+
+        color: white;
+        width: 150px;
+        height: 100px;
+        padding: 10px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+
+
+
+        img {
+            max-height: 100px;
+
+            background-color: transparent;
+        }
+
+
+
+
+    }
+
+    .league-container:hover {
+        color: var(--secondary-color);
+        text-decoration: underline;
+        text-underline-offset: 4px;
+        transform: scale(1.05);
+    }
+}
+
+.les-assets-de-bixente-cest-de-la-merde {
+    margin-top: 15px;
+    width: 100px;
+}
+
+@media (max-width: 1150px) {
+    .container {
+        h2 {
+            margin-top: -40px;
+        }
+
+        .link-container {
+
+            flex-wrap: wrap;
+            max-width: 90%;
+            padding-bottom: 40px;
+            padding-top: 20px;
+        }
+    }
+}

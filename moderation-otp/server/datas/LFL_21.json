@@ -1,0 +1,67 @@
+[
+  {
+    "date": "2024-05-23T16:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Aegis",
+      "Solary"
+    ],
+    "accronyms": [
+      "AEG",
+      "SLY"
+    ]
+  },
+  {
+    "date": "2024-05-23T17:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "GameWard",
+      "BDS Academy"
+    ],
+    "accronyms": [
+      "GW",
+      "BDSA"
+    ]
+  },
+  {
+    "date": "2024-05-23T18:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Team GO",
+      "Gentle Mates"
+    ],
+    "accronyms": [
+      "GO",
+      "M8"
+    ]
+  },
+  {
+    "date": "2024-05-23T19:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "TDS E-SPORT",
+      "Karmine Corp Blue"
+    ],
+    "accronyms": [
+      "TDS",
+      "KCB"
+    ]
+  },
+  {
+    "date": "2024-05-23T20:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "BK ROG Esports",
+      "Vitality.Bee"
+    ],
+    "accronyms": [
+      "BKR",
+      "VITB"
+    ]
+  }
+]

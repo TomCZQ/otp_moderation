@@ -1,0 +1,438 @@
+[{
+  "_id": {
+    "$oid": "6645d2fe88971f9bd7f15a8c"
+  },
+  "id": "149983013046845441",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/149983013046845441/c13aa8ebeeaa508bbfeaeb803a61a4d6.png",
+  "password": "$2b$10$.KxA/z5NgFG98woTUBPzteCiwEmmJTwn/uKcuV4g/NUpxa9stHadO",
+  "roles": [
+    "1048626805726261248",
+    "1048629296115220580",
+    "1039694305943638117",
+    "1048629157183115334",
+    "1043572037479829575",
+    "1048628895160746095",
+    "1048625021851009074",
+    "1048629451849736275",
+    "1048628682434039838",
+    "1048629096659300415"
+  ],
+  "username": "maveur"
+},
+{
+  "_id": {
+    "$oid": "6645d6b588971f9bd7f15e64"
+  },
+  "id": "193468496091414530",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/193468496091414530/1bac1f1657b98a328154b3633ede9deb.png",
+  "nick": "bixente_",
+  "password": "$2b$10$.su63xzJGzRsGuZvXqXMq.wdUwBokv7lAWbUga6uzKrUz/Cj8Dbna",
+  "roles": [
+    "1048626805726261248",
+    "1039694305943638117",
+    "1044344146556629062",
+    "1043572037479829575"
+  ],
+  "username": "bixente_"
+},
+{
+  "_id": {
+    "$oid": "6645d6b588971f9bd7f15e67"
+  },
+  "id": "216048602605289475",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/216048602605289475/b1aef0566dafa4301c6e202572e70d45.png",
+  "nick": "lightammer",
+  "password": "$2b$10$FLH63fTzn//AcxCI/a1JeumStq9OCbB4RtMrzxGzbzxAINeT1cxHK",
+  "roles": [
+    "1100494904305647777",
+    "1048629296115220580",
+    "1048629157183115334",
+    "1043572037479829575",
+    "1048628895160746095",
+    "1053006847809966142",
+    "1048629096659300415"
+  ],
+  "username": "lightammer"
+},
+{
+  "_id": {
+    "$oid": "6645d6b588971f9bd7f15e6a"
+  },
+  "id": "220173276272394240",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/220173276272394240/9c88fb85ba62922f468205d05cbc933a.png",
+  "nick": "smoumy",
+  "password": "$2b$10$kb3WmQ0nLBpxavurwGhxV.NT45eZreiBLow.LXABOeGxow6yjP3Ri",
+  "roles": [
+    "1048626805726261248",
+    "1100494904305647777",
+    "1205583631947399169",
+    "1048629296115220580",
+    "1039694305943638117",
+    "1048629157183115334",
+    "1043572037479829575",
+    "1048625021851009074",
+    "1048629004711776306",
+    "1048629451849736275",
+    "1048629096659300415"
+  ],
+  "username": "smoumy"
+},
+{
+  "_id": {
+    "$oid": "6645d6b588971f9bd7f15e6d"
+  },
+  "id": "243311208785117186",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/243311208785117186/5f3702d5b039b0c5733bc09b921f8f11.png",
+  "nick": "jod2",
+  "password": "$2b$10$BmBWxQaWPrS4ORAYiWz7du4gKYNxn3yUsT2GRfQuXXLCoc1XItYse",
+  "roles": [
+    "1048626805726261248",
+    "1100494904305647777",
+    "1039694305943638117",
+    "1048629157183115334",
+    "1043572037479829575",
+    "1048628895160746095",
+    "1048625021851009074",
+    "1048629004711776306"
+  ],
+  "username": "jod2"
+},
+{
+  "_id": {
+    "$oid": "6645d6b588971f9bd7f15e70"
+  },
+  "id": "244473978033405953",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/244473978033405953/4e5503a4b60018f238e9c263426193b5.png",
+  "nick": "Emma",
+  "password": "$2b$10$b3WpPzaGxlpTIDV4AHfQremG4xahFrYFxsGzyLrOBR4c.U8ML/csi",
+  "roles": [
+    "1100494904305647777",
+    "1043572037479829575",
+    "1048628682434039838",
+    "1048629096659300415"
+  ],
+  "username": "emma_ptitpiaf"
+},
+{
+  "_id": {
+    "$oid": "6645d6b588971f9bd7f15e73"
+  },
+  "id": "294978960746610690",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/294978960746610690/3824440e559f0909fe49358f49c6ffb3.png",
+  "nick": "gillow2850",
+  "password": "$2b$10$Dh2yppADWHopk9cUC3P5g.tY1Ncx.ctlKLdGmwWH4uG3SFdBr8LHK",
+  "roles": [
+    "1048629451849736275",
+    "1048629157183115334",
+    "1043572037479829575"
+  ],
+  "username": "gillow2850"
+},
+{
+  "_id": {
+    "$oid": "6645d6b588971f9bd7f15e76"
+  },
+  "id": "298858405135646720",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/298858405135646720/ea8535546feea5c486a0195f6634f209.png",
+  "nick": "branaglol",
+  "password": "$2b$10$TxIz6oonQNaAmdZUkTHex.kvOD7ITGkWXayhX6/wb5GeGU.nTXQBW",
+  "roles": [
+    "1048629004711776306",
+    "1048629451849736275",
+    "1043572037479829575"
+  ],
+  "username": "dams1708"
+},
+{
+  "_id": {
+    "$oid": "6645d6b588971f9bd7f15e7a"
+  },
+  "id": "301118201117540353",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/301118201117540353/f83d74783fe07fa5f2939e8e48e19a31.png",
+  "nick": "barkos_",
+  "password": "$2b$10$PqewO8tZDq5JC/.Svi039ekUyrczU9qt7ktvZBdYaSQRrXISbVkKu",
+  "roles": [
+    "1048629296115220580",
+    "1048629157183115334",
+    "1043572037479829575",
+    "1048628895160746095",
+    "1048629096659300415"
+  ],
+  "username": "barkos_"
+},
+{
+  "_id": {
+    "$oid": "6645d6b588971f9bd7f15e7d"
+  },
+  "id": "301782129686347779",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/301782129686347779/476b80e1fb96d85301e3831d24772389.png",
+  "nick": "LE BRO DOOM",
+  "password": "$2b$10$VKFCkMBmayeuS1CE8mJTUOrfkHCHGXwCBsBxUXVFSWSXrV.H/m2Lu",
+  "roles": [
+    "1100494904305647777",
+    "1048629296115220580",
+    "1044344146556629062",
+    "1048629157183115334",
+    "1043572037479829575",
+    "1048629004711776306",
+    "1048629451849736275",
+    "1048629096659300415"
+  ],
+  "username": "doomsrekt"
+},
+{
+  "_id": {
+    "$oid": "6645d6b588971f9bd7f15e80"
+  },
+  "id": "316819010081783820",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/316819010081783820/67c11886e50988a9c584d6c1afe32b4a.png",
+  "nick": "moun18",
+  "password": "$2b$10$qnqywsFvWT3MW3mOFzJVvuYTExw1A6ocn9xzbF0CHafRFWcAPAsgS",
+  "roles": [
+    "1048628682434039838",
+    "1043572037479829575"
+  ],
+  "username": "moun18"
+},
+{
+  "_id": {
+    "$oid": "6645d6b588971f9bd7f15e83"
+  },
+  "id": "337603515327184896",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/337603515327184896/ac4bba282c262235c0a4bfbbca266bca.png",
+  "nick": "Prune",
+  "password": "$2b$10$KSL1c72d0tF8St6ir7OpKelCtwnnj6XYsJ0M8IJ3PH/O5csyo4O/2",
+  "roles": [
+    "1048626805726261248",
+    "1100494904305647777",
+    "1043572037479829575",
+    "1048628895160746095",
+    "1048625021851009074",
+    "1048628682434039838"
+  ],
+  "username": "_pruune"
+},
+{
+  "_id": {
+    "$oid": "6645d6b588971f9bd7f15e86"
+  },
+  "id": "349171781535268866",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/349171781535268866/ad813acffad9abad7e288aa328ba5b9c.png",
+  "nick": "[G2] Noka",
+  "password": "$2b$10$ZnADqgWGUlskIu38.Pp5puyhfzLfr4w.fmjVgsvtUje1zeZkV2l5G",
+  "roles": [
+    "1100494904305647777",
+    "1048629296115220580",
+    "1048629157183115334",
+    "1043572037479829575",
+    "1048628895160746095",
+    "1048628682434039838"
+  ],
+  "username": "nokatir"
+},
+{
+  "_id": {
+    "$oid": "6645d6b588971f9bd7f15e89"
+  },
+  "id": "389072618260529154",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/389072618260529154/30ac3fa38fa27855a694cd5920eda917.png",
+  "nick": "lebronflex",
+  "password": "$2b$10$eqiw2mT9tPhb92NiJfj3R.OVemj49/a0VLkcZytiOKr5D4O50FLcC",
+  "roles": [
+    "1043572037479829575"
+  ],
+  "username": "valentingrin"
+},
+{
+  "_id": {
+    "$oid": "6645d6b588971f9bd7f15e8c"
+  },
+  "id": "401506143655952384",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/401506143655952384/4b2d0b0c76a4d0f1674922f308b3baea.png",
+  "nick": "[GWIIN]  Romane",
+  "password": "$2b$10$p.xkCJFqDAZHJZYzokToseFL72UFkNGv3PFYNhMjKElFQCULknO.m",
+  "roles": [
+    "1100494904305647777",
+    "1048629157183115334",
+    "1043572037479829575",
+    "1048629004711776306",
+    "1048628682434039838"
+  ],
+  "username": "roomane"
+},
+{
+  "_id": {
+    "$oid": "6645d6b588971f9bd7f15e8f"
+  },
+  "id": "447807062999826433",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/447807062999826433/a_7ab1c97ba39a0d0388e6377f157ea811.png",
+  "nick": "[KT] Pihisen",
+  "password": "$2b$10$3vrUxlWLpmrCuqI7fxdfweApUcUhSB9eRexSbXOBbPjoUxC7a3GQu",
+  "roles": [
+    "1205583631947399169",
+    "1048629157183115334",
+    "1043572037479829575",
+    "1048629004711776306",
+    "1048629096659300415"
+  ],
+  "username": "pihisen"
+},
+{
+  "_id": {
+    "$oid": "6645d6b688971f9bd7f15e92"
+  },
+  "id": "466681862547570708",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/466681862547570708/e2810c78b90c27d26bbba7556f63c202.png",
+  "nick": "Otniiiii (modo au pseudo rigolo)",
+  "password": "$2b$10$wONRIj5GlMbpPb7z.tX5qe.ocWMwMjMuFMu/PWYUyO9G29hJT6wXS",
+  "roles": [
+    "1043572037479829575",
+    "1048629296115220580",
+    "1048629157183115334",
+    "1048628895160746095"
+  ],
+  "username": "potnouille"
+},
+{
+  "_id": {
+    "$oid": "6645d6b688971f9bd7f15e95"
+  },
+  "id": "478283896845238292",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/478283896845238292/a_6cc0942eaddedddc023b39a81ecbc048.png",
+  "nick": "arnaud25",
+  "password": "$2b$10$aWAry8mVp.jWrsZoi6WERuHPBPcLnql3pidicQmB5oWn48W69wJ.q",
+  "roles": [
+    "1043572037479829575",
+    "1048629451849736275",
+    "1048629157183115334",
+    "1048628682434039838"
+  ],
+  "username": "arnaud25"
+},
+{
+  "_id": {
+    "$oid": "6645d6b688971f9bd7f15e98"
+  },
+  "id": "584811150441709600",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/584811150441709600/f50c850972d3f451797b18ea8cdda78d.png",
+  "nick": "Tom",
+  "password": "$2b$10$dY.Wbm5gEncMiIUnIhIdGOhmdn5Q7CmLrXAu9mlEsjyq9cKxPZVUK",
+  "roles": [
+    "1048626805726261248",
+    "1100494904305647777",
+    "1048629296115220580",
+    "1039694305943638117",
+    "1048629157183115334",
+    "1043572037479829575",
+    "1048628895160746095",
+    "1048625021851009074",
+    "1048628682434039838"
+  ],
+  "username": "tom04_"
+},
+{
+  "_id": {
+    "$oid": "6645d6b688971f9bd7f15e9b"
+  },
+  "id": "698275453814702212",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/698275453814702212/bfca3e755b8d5978a76dfbfb24400ccd.png",
+  "nick": "Alice",
+  "password": "$2b$10$tkgoB41v1vDHzo1dEZ28PeghLjMFyAt7rtYWnWw4nmw48BzwDPGnq",
+  "roles": [
+    "1043572037479829575",
+    "1048628682434039838",
+    "1048629096659300415"
+  ],
+  "username": "localnerdybrat"
+},
+{
+  "_id": {
+    "$oid": "6645d6b688971f9bd7f15e9e"
+  },
+  "id": "727975866658979901",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/727975866658979901/01cec5a801890e8d4c6a2b3bff36ccb8.png",
+  "nick": "kuromiaou",
+  "password": "$2b$10$3tGzV.VSi78RUJfCdxHu.uxZzi9v7/NaAa/1El20CVR7I1I5vLho2",
+  "roles": [
+    "1048629296115220580",
+    "1048629157183115334",
+    "1043572037479829575",
+    "1048628895160746095",
+    "1048629004711776306",
+    "1048628682434039838"
+  ],
+  "username": "kuromiaou"
+},
+{
+  "_id": {
+    "$oid": "6645d6b688971f9bd7f15ea1"
+  },
+  "id": "751363361232388106",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/751363361232388106/f146a5aed19ad646e6358914ebccad5c.png",
+  "nick": "[G2] Neivious",
+  "password": "$2b$10$MQZ5RwOrmBx2XoeCirwveu7mhGLyEN7ir8LpGdAFqVtpGMLlpp9P6",
+  "roles": [
+    "1048629296115220580",
+    "1048629157183115334",
+    "1043572037479829575",
+    "1048628895160746095",
+    "1048629451849736275"
+  ],
+  "username": "neivious"
+},
+{
+  "_id": {
+    "$oid": "6645d6b688971f9bd7f15ea4"
+  },
+  "id": "841373978413236244",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/841373978413236244/057faaf4423dad802a427af7f249ffdd.png",
+  "nick": "Maëlleuh",
+  "password": "$2b$10$Wue3lVQTMJFMCW4o8S1wdedI0j0tJGqem.nj8uEm/T8A1bbM.Fpl2",
+  "roles": [
+    "1048629004711776306",
+    "1043572037479829575",
+    "1048629157183115334",
+    "1048628682434039838"
+  ],
+  "username": "docteurfashion"
+},
+{
+  "_id": {
+    "$oid": "6645d6b688971f9bd7f15ea7"
+  },
+  "id": "1103490223209459733",
+  "__v": 0,
+  "avatar": "https://cdn.discordapp.com/avatars/1103490223209459733/1ab6efc95c2d8b905cc564e5b00561aa.png",
+  "nick": "kayro_tv",
+  "password": "$2b$10$.2Gxn629HyXShyrCCw2w9OmLJoQzbPwiajzef95L6TTUVvuz4Qxbm",
+  "roles": [
+    "1048628682434039838",
+    "1043572037479829575",
+    "1048629157183115334",
+    "1048628895160746095"
+  ],
+  "username": "kayro_tv"
+}]

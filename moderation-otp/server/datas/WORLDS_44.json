@@ -1,0 +1,28 @@
+[
+  {
+    "date": "2024-10-26T12:00:00.000Z",
+    "bo": 5,
+    "title": "SEMI FINAL #1",
+    "teams": [
+      "WeiboGaming TapTap",
+      "Bilibili Gaming"
+    ],
+    "accronyms": [
+      "WBG",
+      "BLG"
+    ]
+  },
+  {
+    "date": "2024-10-27T13:00:00.000Z",
+    "bo": 5,
+    "title": "SEMI FINAL #2",
+    "teams": [
+      "T1",
+      "Gen.G"
+    ],
+    "accronyms": [
+      "T1",
+      "GEN"
+    ]
+  }
+]

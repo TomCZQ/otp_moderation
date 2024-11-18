@@ -1,0 +1,132 @@
+[
+  {
+    "date": "2024-08-03T06:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "T1",
+      "Gen.G"
+    ],
+    "accronyms": [
+      "T1",
+      "GEN"
+    ]
+  },
+  {
+    "date": "2024-08-03T08:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "BNK FearX",
+      "DRX"
+    ],
+    "accronyms": [
+      "FOX",
+      "DRX"
+    ]
+  },
+  {
+    "date": "2024-08-04T06:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "kt Rolster",
+      "OKSavingsBank BRION"
+    ],
+    "accronyms": [
+      "KT",
+      "BRO"
+    ]
+  },
+  {
+    "date": "2024-08-04T08:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "NongShim REDFORCE",
+      "Kwangdong Freecs"
+    ],
+    "accronyms": [
+      "NS",
+      "KDF"
+    ]
+  },
+  {
+    "date": "2024-08-07T08:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "Gen.G",
+      "DRX"
+    ],
+    "accronyms": [
+      "GEN",
+      "DRX"
+    ]
+  },
+  {
+    "date": "2024-08-07T10:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "Kwangdong Freecs",
+      "kt Rolster"
+    ],
+    "accronyms": [
+      "KDF",
+      "KT"
+    ]
+  },
+  {
+    "date": "2024-08-08T08:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "Hanwha Life Esports",
+      "OKSavingsBank BRION"
+    ],
+    "accronyms": [
+      "HLE",
+      "BRO"
+    ]
+  },
+  {
+    "date": "2024-08-08T10:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "BNK FearX",
+      "Dplus KIA"
+    ],
+    "accronyms": [
+      "FOX",
+      "DK"
+    ]
+  },
+  {
+    "date": "2024-08-09T08:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "kt Rolster",
+      "Gen.G"
+    ],
+    "accronyms": [
+      "KT",
+      "GEN"
+    ]
+  },
+  {
+    "date": "2024-08-09T10:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "T1",
+      "NongShim REDFORCE"
+    ],
+    "accronyms": [
+      "T1",
+      "NS"
+    ]
+  }
+]

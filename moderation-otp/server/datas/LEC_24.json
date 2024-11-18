@@ -1,0 +1,197 @@
+[
+  {
+    "date": "2024-06-08T15:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Team Heretics",
+      "GIANTX"
+    ],
+    "accronyms": [
+      "TH",
+      "GX"
+    ]
+  },
+  {
+    "date": "2024-06-08T15:45:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "SK Gaming",
+      "Rogue"
+    ],
+    "accronyms": [
+      "SK",
+      "RGE"
+    ]
+  },
+  {
+    "date": "2024-06-08T16:30:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Team Vitality",
+      "Team BDS"
+    ],
+    "accronyms": [
+      "VIT",
+      "BDS"
+    ]
+  },
+  {
+    "date": "2024-06-08T17:15:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      " MAD Lions KOI",
+      "G2 Esports"
+    ],
+    "accronyms": [
+      "MDK",
+      "G2"
+    ]
+  },
+  {
+    "date": "2024-06-08T18:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Karmine Corp",
+      "Fnatic"
+    ],
+    "accronyms": [
+      "KC",
+      "FNC"
+    ]
+  },
+  {
+    "date": "2024-06-09T15:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Team BDS",
+      "Team Heretics"
+    ],
+    "accronyms": [
+      "BDS",
+      "TH"
+    ]
+  },
+  {
+    "date": "2024-06-09T15:45:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Rogue",
+      "Team Vitality"
+    ],
+    "accronyms": [
+      "RGE",
+      "VIT"
+    ]
+  },
+  {
+    "date": "2024-06-09T16:30:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Karmine Corp",
+      " MAD Lions KOI"
+    ],
+    "accronyms": [
+      "KC",
+      "MDK"
+    ]
+  },
+  {
+    "date": "2024-06-09T17:15:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Fnatic",
+      "GIANTX"
+    ],
+    "accronyms": [
+      "FNC",
+      "GX"
+    ]
+  },
+  {
+    "date": "2024-06-09T18:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "G2 Esports",
+      "SK Gaming"
+    ],
+    "accronyms": [
+      "G2",
+      "SK"
+    ]
+  },
+  {
+    "date": "2024-06-10T15:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Fnatic",
+      "Team Vitality"
+    ],
+    "accronyms": [
+      "FNC",
+      "VIT"
+    ]
+  },
+  {
+    "date": "2024-06-10T15:45:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "GIANTX",
+      "SK Gaming"
+    ],
+    "accronyms": [
+      "GX",
+      "SK"
+    ]
+  },
+  {
+    "date": "2024-06-10T16:30:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Team BDS",
+      "G2 Esports"
+    ],
+    "accronyms": [
+      "BDS",
+      "G2"
+    ]
+  },
+  {
+    "date": "2024-06-10T17:15:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Rogue",
+      "Karmine Corp"
+    ],
+    "accronyms": [
+      "RGE",
+      "KC"
+    ]
+  },
+  {
+    "date": "2024-06-10T18:00:00.000Z",
+    "bo": 1,
+    "title": "",
+    "teams": [
+      "Team Heretics",
+      " MAD Lions KOI"
+    ],
+    "accronyms": [
+      "TH",
+      "MDK"
+    ]
+  }
+]

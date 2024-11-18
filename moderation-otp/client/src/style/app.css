@@ -1,0 +1,22 @@
+.full-height {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.full-height main {
+  flex: 1;
+}
+
+main {
+  background-color: #1b1b1b;
+}
+
+@media (max-width: 1150px) {
+  h2 {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */

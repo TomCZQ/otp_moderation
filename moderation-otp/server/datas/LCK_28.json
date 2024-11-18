@@ -1,0 +1,80 @@
+[
+  {
+    "date": "2024-07-10T08:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "T1",
+      "OKSavingsBank BRION"
+    ],
+    "accronyms": [
+      "T1",
+      "BRO"
+    ]
+  },
+  {
+    "date": "2024-07-10T10:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "NongShim REDFORCE",
+      "kt Rolster"
+    ],
+    "accronyms": [
+      "NS",
+      "KT"
+    ]
+  },
+  {
+    "date": "2024-07-11T08:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "Dplus KIA",
+      "DRX"
+    ],
+    "accronyms": [
+      "DK",
+      "DRX"
+    ]
+  },
+  {
+    "date": "2024-07-11T10:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "Kwangdong Freecs",
+      "Gen.G"
+    ],
+    "accronyms": [
+      "KDF",
+      "GEN"
+    ]
+  },
+  {
+    "date": "2024-07-12T08:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "BNK FearX",
+      "kt Rolster"
+    ],
+    "accronyms": [
+      "FOX",
+      "KT"
+    ]
+  },
+  {
+    "date": "2024-07-12T10:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "T1",
+      "Hanwha Life Esports"
+    ],
+    "accronyms": [
+      "T1",
+      "HLE"
+    ]
+  }
+]

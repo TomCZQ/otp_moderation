@@ -1,0 +1,132 @@
+[
+  {
+    "date": "2024-06-15T06:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "Kwangdong Freecs",
+      "OKSavingsBank BRION"
+    ],
+    "accronyms": [
+      "KDF",
+      "BRO"
+    ]
+  },
+  {
+    "date": "2024-06-15T08:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "kt Rolster",
+      "Dplus KIA"
+    ],
+    "accronyms": [
+      "KT",
+      "DK"
+    ]
+  },
+  {
+    "date": "2024-06-16T06:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "Hanwha Life Esports",
+      "DRX"
+    ],
+    "accronyms": [
+      "HLE",
+      "DRX"
+    ]
+  },
+  {
+    "date": "2024-06-16T08:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "T1",
+      "Gen.G"
+    ],
+    "accronyms": [
+      "T1",
+      "GEN"
+    ]
+  },
+  {
+    "date": "2024-06-19T08:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "NongShim REDFORCE",
+      "Kwangdong Freecs"
+    ],
+    "accronyms": [
+      "NS",
+      "KDF"
+    ]
+  },
+  {
+    "date": "2024-06-19T10:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "T1",
+      "Dplus KIA"
+    ],
+    "accronyms": [
+      "T1",
+      "DK"
+    ]
+  },
+  {
+    "date": "2024-06-20T08:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "kt Rolster",
+      "Gen.G"
+    ],
+    "accronyms": [
+      "KT",
+      "GEN"
+    ]
+  },
+  {
+    "date": "2024-06-20T10:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "BNK FearX",
+      "DRX"
+    ],
+    "accronyms": [
+      "FOX",
+      "DRX"
+    ]
+  },
+  {
+    "date": "2024-06-21T08:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "Hanwha Life Esports",
+      "OKSavingsBank BRION"
+    ],
+    "accronyms": [
+      "HLE",
+      "BRO"
+    ]
+  },
+  {
+    "date": "2024-06-21T10:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "T1",
+      "Kwangdong Freecs"
+    ],
+    "accronyms": [
+      "T1",
+      "KDF"
+    ]
+  }
+]

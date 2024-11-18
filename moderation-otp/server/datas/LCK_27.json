@@ -1,0 +1,54 @@
+[
+  {
+    "date": "2024-06-29T06:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "T1",
+      "kt Rolster"
+    ],
+    "accronyms": [
+      "T1",
+      "KT"
+    ]
+  },
+  {
+    "date": "2024-06-29T08:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "NongShim REDFORCE",
+      "Hanwha Life Esports"
+    ],
+    "accronyms": [
+      "NS",
+      "HLE"
+    ]
+  },
+  {
+    "date": "2024-06-30T06:00:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "BNK FearX",
+      "OKSavingsBank BRION"
+    ],
+    "accronyms": [
+      "FOX",
+      "BRO"
+    ]
+  },
+  {
+    "date": "2024-06-30T08:30:00.000Z",
+    "bo": 3,
+    "title": "",
+    "teams": [
+      "Kwangdong Freecs",
+      "Dplus KIA"
+    ],
+    "accronyms": [
+      "KDF",
+      "DK"
+    ]
+  }
+]
