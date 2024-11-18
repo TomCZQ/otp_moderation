@@ -9,7 +9,7 @@ const client = new MongoClient(url);
 exports.getMatches = async (req, res) => {
   const league = req.headers["league"];
   const week = req.headers["week"];
-  console.log(`Received headers: league=${league}, week=${week}`); // Log pour déboguer les paramètres
+  console.log(`Received headers: league=${league}, week=${week}`); 
 
   try {
     await client.connect();
@@ -22,7 +22,7 @@ exports.getMatches = async (req, res) => {
       console.log(`No matches found for ${collectionName}`);
     } else {
       console.log(`Matches found: ${matches.length}`);
-      console.log(matches); // Afficher les données récupérées
+      console.log(matches); 
     }
     res.status(200).json(matches);
   } catch (error) {
